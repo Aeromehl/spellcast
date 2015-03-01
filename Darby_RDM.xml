@@ -1,0 +1,300 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<sets>
+	<group name="RDM" default="yes">		
+			<set name="RDMIdle">
+				<main>Earth Staff</main>
+				<sub>Bugard Strap +1</sub>
+				<range></range>
+				<ammo>Chatoyant Staff</ammo>
+				<head>Nefer Khat +1</head>
+				<neck>Beak Necklace</neck>
+				<lear>Astral Earring</lear>
+				<rear>Insomnia Earring</rear>
+				<body>Nefer Kalasiris</body>
+				<hands>Serpentes Cuffs</hands>
+				<lring>Bifrost Ring</lring>
+				<rring>Serket Ring</rring>
+				<back>Blue Cape +1</back>
+				<waist></waist>
+				<legs>Mahatma Slops</legs>
+				<feet>Serpentes Sabots</feet>
+				<item>Gendewitha Bliaut</item>
+				<item>Hagondes Coat</item>
+				<item>Vitivation Chapeau</item>
+				<item>Dls. Tabard +2</item>
+				<item>Dls. Gloves +2</item>
+				<item>Dls. Boots +2</item>
+				<item>Mediator's Ring</item>
+				<item>Graiai Earring</item>
+				<item>Espial Hose</item>
+				<item>Headlong Belt</item>
+				<item>Gende. Caubeen</item>
+				<item>Gende. Galoshes</item>
+				<item>Gendawitha Gages</item>
+				<item>Gendawitha Spats</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>	
+			</set>
+			
+			<set name="RDMrest">
+				<main>Pluto's Staff</main>
+				<sub>Bugard Strap +1</sub>
+				<range></range>
+				<ammo></ammo>
+				<head>Nefer Khat +1</head>
+				<neck>Beak Necklace</neck>
+				<lear>Astral Earring</lear>
+				<rear>Insomnia Earring</rear>
+				<body>Nefer Kalasiris</body>
+				<hands>Serpentes Cuffs</hands>
+				<lring>Bifrost Ring</lring>
+				<rring>Serket Ring</rring>
+				<back>Blue Cape +1</back>
+				<waist></waist>
+				<legs>Mahatma Slops</legs>
+				<feet>Serpentes Sabots</feet>
+			</set>
+			
+			<set name="RDMprecures">
+				<main>Light Staff</main>
+				<sub>Bugard Strap +1</sub>
+				<range></range>
+				<ammo>Impatiens</ammo>
+				<head>Nefer Khat +1</head>
+				<neck>Beak Necklace</neck>
+				<lear>Astral Earring</lear>
+				<rear>Insomnia Earring</rear>
+				<body>Nefer Kalasiris</body>
+				<hands>Serpentes Cuffs</hands>
+				<lring>Bifrost Ring</lring>
+				<rring>Serket Ring</rring>
+				<back>Blue Cape +1</back>
+				<waist>Witful Belt</waist>
+				<legs>Mahatma Slops</legs>
+				<feet>Serpentes Sabots</feet>
+			</set>
+			
+			<set name="RDMmidcures">
+				<main>Light Staff</main>
+				<sub>Bugard Strap +1</sub>
+				<range></range>
+				<ammo></ammo>
+				<head>Nefer Khat +1</head>
+				<neck>Beak Necklace</neck>
+				<lear>Astral Earring</lear>
+				<rear>Insomnia Earring</rear>
+				<body>Nefer Kalasiris</body>
+				<hands>Serpentes Cuffs</hands>
+				<lring>Bifrost Ring</lring>
+				<rring>Serket Ring</rring>
+				<back>Blue Cape +1</back>
+				<waist></waist>
+				<legs>Mahatma Slops</legs>
+				<feet>Serpentes Sabots</feet>
+			</set>	
+			
+			<set name="RDMcursna">
+				<main>Light Staff</main>
+				<sub>Bugard Strap +1</sub>
+				<range></range>
+				<ammo>Clarus Stone</ammo>
+				<head>Nefer Khat +1</head>
+				<neck>Beak Necklace</neck>
+				<lear>Astral Earring</lear>
+				<rear>Insomnia Earring</rear>
+				<body>Nefer Kalasiris</body>
+				<hands>Serpentes Cuffs</hands>
+				<lring>Bifrost Ring</lring>
+				<rring>Serket Ring</rring>
+				<back>Blue Cape +1</back>
+				<waist></waist>
+				<legs>Mahatma Slops</legs>
+				<feet>Serpentes Sabots</feet>
+			</set>
+
+			<set name="RDMenhancing">
+				<main>Light Staff</main>
+				<sub>Bugard Strap +1</sub>
+				<range></range>
+				<ammo></ammo>
+				<head>Nefer Khat +1</head>
+				<neck>Beak Necklace</neck>
+				<lear>Astral Earring</lear>
+				<rear>Insomnia Earring</rear>
+				<body>Nefer Kalasiris</body>
+				<hands></hands>
+				<lring>Bifrost Ring</lring>
+				<rring>Serket Ring</rring>
+				<back>Blue Cape +1</back>
+				<waist></waist>
+				<legs>Mahatma Slops</legs>
+				<feet>Errant Pigaches</feet>
+			</set>	
+	
+			<set name="RDMenfeebling">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring>Bifrost Ring</lring>
+				<rring>Serket Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs>Mahatma Slops</legs>
+				<feet></feet>
+			</set>
+
+			<set name="RDMelemental">
+				<sub>Bugard Strap +1</sub>
+				<range></range>
+				<ammo>Clarus Stone</ammo>
+				<head>Nefer Khat +1</head>
+				<neck>Elemental Torque</neck>
+				<lear>Astral Earring</lear>
+				<rear>Insomnia Earring</rear>
+				<body>Teal Saio</body>
+				<hands>Eradico Mitts</hands>
+				<lring>Bifrost Ring</lring>
+				<rring>Serket Ring</rring>
+				<back>Red Cape +1</back>
+				<waist>Cognition Belt</waist>
+				<legs>Mahatma Slops</legs>
+				<feet>Serpentes Sabots</feet>
+			</set>
+	
+			<set name="RDMfire" baseset="RDMelemental">
+				<main>Vulcan's Staff</main>
+			</set>
+			<set name="RDMwater" baseset="RDMelemental">
+				<main>Neptune's Staff</main>
+			</set>
+			<set name="RDMstone" baseset="RDMelemental">
+				<main>Earth Staff</main>
+			</set>
+			<set name="RDMaero" baseset="RDMelemental">
+				<main>Auster's Staff</main>
+			</set>
+			<set name="RDMbliz" baseset="RDMelemental">
+				<main>Ice Staff</main>
+			</set>
+			<set name="RDMthun" baseset="RDMelemental">
+				<main>Thunder Staff</main>
+			</set>
+			
+	
+			<set name="RDMdark">
+				<main>Pluto's Staff</main>
+				
+			</set>
+			
+			<set name="misc">
+				<main></main>
+				<main>Raphael's Rod</main>
+				<main></main>
+				<main></main>
+				<main>Instant Warp</main>
+				<main>Instant Retrace</main>
+				<main></main>
+				<main></main>
+				<main></main>
+				<main></main>
+				<main></main>
+				<main></main>
+				<main></main>
+				<main></main>
+				<main></main>
+				<main></main>
+				<main></main>
+				<main></main>
+			</set>
+	</group>
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Engaged" set="RDMIdle"/>
+				<action type="equip" when="Resting" set="RDMrest"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="RDMIdle"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="RDMIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			
+			
+	<!-- Spell Rules -->	
+			<if Spell="Cure*|Curaga*|Cura*|Regen*">
+				<action type="equip" when="Precast" set="RDMprecures"/>
+				<action type="equip" when="Midcast" set="RDMmidcures"/>
+			</if>
+			<if Spell="Cursna">
+				<action type="equip" when="Precast" set="RDMCursna"/>
+			</if>
+			<if Skill="Enhancing Magic">
+				<action type="equip" when="Precast" set="RDMenhancing"/>
+			</if>
+			<if Skill="Enfeebling Magic">
+				<action type="equip" when="Precast" set="RDMenfeebling"/>
+			</if>	
+			<if Skill="Dark Magic">
+				<action type="equip" when="Precast" set="RDMdark"/>
+			</if>	
+				
+				
+			<if spell="Fire|Fire II|Fire III|Fire IV|Fire V|Firaga|Firaga II|Firaga III|Flare|Flare II|Burn|Firaja">
+			<action type="equip" when="Precast" set="RDMfire"/>
+			</if>
+			<if spell="Water|Water II|Water III|Water IV|Water V|Waterga|Waterga II|Waterga III|Flood|Flood II|Drown|Poison|Poison II|Poisonga|Poisonga II|Waterja">
+			<action type="equip" when="Precast" set="RDMwater"/>
+			</if>	
+			<if spell="Stone|Stone II|Stone III|Stone IV|Stone V|Stonega|Stonega II|Stonega III|Quake|Quake II|Rasp|Break|Breakga|Stoneja">
+			<action type="equip" when="Precast" set="RDMstone"/>
+			</if>
+			<if spell="Aero|Aero II|Aero III|Aero IV|Aero V|Aeroga|Aeroga II|Aeroga III|Tornado|Tornado II|Choke|Aeroja|Gravity">
+			<action type="equip" when="Precast" set="RDMaero"/>
+			</if>	
+			<if spell="Blizzard|Blizzard II|Blizzard III|Blizzard IV|Blizzard V|Blizzaga|Blizzaga II|Blizzaga III|Freeze|Freeze II|Frost|Blizzaja|Bind">
+			<action type="equip" when="Precast" set="RDMbliz"/>
+			</if>	
+			<if spell="Thunder|Thunder II|Thunder III|Thunder IV|Thunder V|Thundaga|Thundaga II|Thundaga III|Burst|Burst II|Shock|Thundaja">
+			<action type="equip" when="Precast" set="RDMthun"/>
+			</if>
+			
+			
+			
+
+
+
+			
+				 
+				 
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+
+
+</rules>
+</spellcast>

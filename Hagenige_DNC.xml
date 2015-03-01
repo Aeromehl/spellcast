@@ -1,0 +1,343 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<Variables>
+	
+</Variables>	
+	
+<sets>
+	<group name="DNC" default="yes">			
+			<set name="DNCIdle">
+				<main>Polyhymnia</main>
+				<sub>Flume Belt</sub>
+				<range>Aliyat Chakram</range>
+				<ammo>Engulfer Cape</ammo>
+				<head>Oce. Headpiece +1</head>
+				<neck>Wiglen Gorget</neck>
+				<lear>Brutal Earring</lear>
+				<rear>Kemas Earring</rear>
+				<body>Charis Casaque +2</body>
+				<hands>Brego Gloves</hands>
+				<lring>Paguroidea Ring</lring>
+				<rring>Sheltered Ring</rring>
+				<back>Atheling Mantle</back>
+				<waist>Twilight Belt</waist>
+				<legs>Kaabnax Trousers</legs>
+				<feet>Tandava Crackows</feet>
+				<item>Yacuruna Ring</item>
+				<item>Izhiikoh</item>
+				<item>Polyhymnia</item>
+				<item>Vanir Battery</item>
+				<item>Atoyac</item>
+				<item>Whirlpool mask</item>
+				<item>Qaaxo Harness</item>
+				<item>Qaaxo Mitaines</item>
+				<item>Qaaxo Leggings</item>
+				<item>Windbuffet Belt</item>
+				<item>Ighwa Trousers</item>
+				<item>Asperity Necklace</item>
+				<item>Steelflash Earring</item>
+				<item>Bladborn Earring</item>
+				<item>Impatiens</item>
+				<item>Horos Tiara</item>
+				<item>Dancer's Casaque</item>
+				<item>Uk'uxkaj Cap</item>
+				<item>Espial Gambison</item>
+				<item>Flame Pearl</item>
+				<item>Pyrosoul Ring</item>
+				<item>Pyrosoul Ring</item>
+				<item>Flame Pearl</item>
+				<item>Forager's Mantle</item>
+				<item>Umuthi Gloves</item>
+				<item>Asperity Necklace</item>
+				<item></item>
+				<item>Instant Reraise</item>
+				<item>Hi-Reraiser</item>
+				<item>Super Reraiser</item>
+				<item>Charis Bangles +2</item>
+				<item>Tandava Crackows</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+			</set>
+			
+			<set name="DNCTP">
+				<main></main>
+				<sub></sub>
+				<range>Aliyat Chakram</range>
+				<ammo></ammo>
+				<head>Oce. Headpiece +1</head>
+				<neck>Charis Necklace</neck>
+				<lear>Brutal Earring</lear>
+				<rear>Kemas Earring</rear>
+				<body>Charis Casaque +2</body>
+				<hands>Brego Gloves</hands>
+				<lring>Rajas Ring</lring>
+				<rring>Heed Ring</rring>
+				<back>Atheling Mantle</back>
+				<waist>Twilight Belt</waist>
+				<legs>Kaabnax Trousers</legs>
+				<feet>Charis Shoes +2</feet>
+			</set>
+			
+			<set name="DNCWS">
+				<main></main>
+				<sub></sub>
+				<range>Aliyat Chakram</range>
+				<ammo></ammo>
+				<head>Oce. Headpiece +1</head>
+				<neck>Houyi's Gorget</neck>
+				<lear>Brutal Earring</lear>
+				<rear>Kemas Earring</rear>
+				<body>Charis Casaque +2</body>
+				<hands>Brego Gloves</hands>
+				<lring>Rajas Ring</lring>
+				<rring>Ramuh Ring +1</rring>
+				<back>Atheling Mantle</back>
+				<waist>Twilight Belt</waist>
+				<legs>Charis Tights +1</legs>
+				<feet>Charis Shoes +2</feet>
+			</set>
+			
+			<set name="DNCagiWS">
+				<main></main>
+				<sub></sub>
+				<range>Aliyat Chakram</range>
+				<ammo></ammo>
+				<head>Oce. Headpiece +1</head>
+				<neck>Houyi's Gorget</neck>
+				<lear>Drone Earring</lear>
+				<rear>Drone Earring</rear>
+				<body>Loki's Kaftan</body>
+				<hands>Charis Bangles +1</hands>
+				<lring>Breeze Ring</lring>
+				<rring>Solemn Ring</rring>
+				<back>Blithe Mantle</back>
+				<waist>Scouter's Rope</waist>
+				<legs>Charis Tights +1</legs>
+				<feet>Lithe Boots</feet>
+			</set>
+			
+			<set name="DNCjig">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs>Etoile Tights</legs>
+				<feet>Dancer's Shoes</feet>
+			</set>
+
+			<set name="DNCwaltz">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring>Valseur's Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+
+			<set name="Misc">
+				<item>Kila +2</item>
+				<item>Onyos Knife</item>
+				<item>Kila</item>
+				<item>Oynos Knife</item>
+				<item>Auric Dagger</item>
+				<item>Titan's Cudgel</item>
+				<item>Warp Cudgel</item>
+				<item>Eminent Dagger</item>
+				<item>Instant Warp</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item>Thaumas Coat</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+			</set>		
+			
+	</group>
+	
+	<group name="EVA" default="no">			
+			<set name="DNCIdle">
+				<main></main>
+				<sub></sub>
+				<range>Aliyat Chakram</range>
+				<ammo></ammo>
+				<head>Oce. Headpiece +1</head>
+				<neck>Wiglen Gorget</neck>
+				<lear>Brutal Earring</lear>
+				<rear>Kemas Earring</rear>
+				<body>Charis Casaque +2</body>
+				<hands>Brego Gloves</hands>
+				<lring>Paguroidea Ring</lring>
+				<rring>Sheltered Ring</rring>
+				<back>Atheling Mantle</back>
+				<waist>Twilight Belt</waist>
+				<legs>Charis Tights +1</legs>
+				<feet>Tandava Crackows</feet>
+			</set>
+			
+			<set name="DNCTP">
+				<main></main>
+				<sub></sub>
+				<range>Aliyat Chakram</range>
+				<ammo></ammo>
+				<head>Optical Hat</head>
+				<neck>Evasion Torque</neck>
+				<lear>Ocl. Earring</lear>
+				<rear>Musical Earring</rear>
+				<body>Scp. Harness +1</body>
+				<hands>Derobade Mittens</hands>
+				<lring>Rajas Ring</lring>
+				<rring>Heed Ring</rring>
+				<back>Boxer's Mantle</back>
+				<waist>Scouter's Rope</waist>
+				<legs>Charis Tights +1</legs>
+				<feet>Dance Shoes</feet>
+			</set>
+			
+			<set name="DNCWS">
+				<main></main>
+				<sub></sub>
+				<range>Aliyat Chakram</range>
+				<ammo></ammo>
+				<head>Oce. Headpiece +1</head>
+				<neck>Houyi's Gorget</neck>
+				<lear>Brutal Earring</lear>
+				<rear>Kemas Earring</rear>
+				<body>Charis Casaque +2</body>
+				<hands>Brego Gloves</hands>
+				<lring>Rajas Ring</lring>
+				<rring>Ramuh Ring +1</rring>
+				<back>Atheling Mantle</back>
+				<waist>Twilight Belt</waist>
+				<legs>Charis Tights +1</legs>
+				<feet>Charis Shoes +2</feet>
+			</set>
+			
+			<set name="DNCagiWS">
+				<main></main>
+				<sub></sub>
+				<range>Aliyat Chakram</range>
+				<ammo></ammo>
+				<head>Oce. Headpiece +1</head>
+				<neck>Houyi's Gorget</neck>
+				<lear>Drone Earring</lear>
+				<rear>Drone Earring</rear>
+				<body>Loki's Kaftan</body>
+				<hands>Charis Bangles +1</hands>
+				<lring>Breeze Ring</lring>
+				<rring>Solemn Ring</rring>
+				<back>Blithe Mantle</back>
+				<waist>Scouter's Rope</waist>
+				<legs>Charis Tights +1</legs>
+				<feet>Lithe Boots</feet>
+			</set>
+			
+			<set name="DNCjig">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs>Etoile Tights</legs>
+				<feet>Dancer's Shoes</feet>
+			</set>	
+
+					
+			
+	</group>
+	
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Resting" set="DNCIdle"/>
+				<action type="equip" when="Engaged" set="DNCTP"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="DNCTP"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="DNCIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			<if commandprefix="/ws|/weaponskill">
+				<if spell="Exenterator">
+					<action type="equip" when="Precast" Set="DNCagiWS" />
+				</if>	
+				<else>
+					<action type="equip" when="Precast" Set="DNCWS" /> 
+				</else>	
+			</if>
+			
+	<!-- Spell Rules -->	
+			<if spell="*Jig|* Jig">
+				<action type="equip" when="Precast" set="DNCjig"/>
+			</if>
+			
+			<if spell="*Waltz|* Waltz">
+				<action type="equip" when="Precast" set="DNCwaltz"/>
+			</if>
+		
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+</rules>
+</spellcast>

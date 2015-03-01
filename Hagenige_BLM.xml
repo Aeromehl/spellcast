@@ -1,0 +1,91 @@
+<spellcast>
+  <sets>
+    <group name="exported">
+      <set name="exported">
+        <ammo>Witchstone</ammo>
+        <head>Buremte Hat</head>
+        <item>Ace of Coins</item>
+        <head>Appetence Crown</head>
+        <hands>Otomi Gloves</hands>
+        <neck>Enhancing Torque</neck>
+        <feet>Ihwa Huaraches</feet>
+        <hands>Augur's Gloves</hands>
+        <body>Praeco Doublet</body>
+        <body>Hyksos Robe +1</body>
+        <neck>Twilight Torque</neck>
+        <item>Pearlsack</item>
+        <sub>Mephitis Grip</sub>
+        <feet>Nares Clogs</feet>
+        <main>Terra's Staff</main>
+        <item>Instant Reraise</item>
+        <sub>Genbu's Shield</sub>
+        <body>Artsieq Jubbah</body>
+        <waist>Oneiros Sash</waist>
+        <back>Swith Cape</back>
+        <item>Kohlrouladen +1</item>
+		<item>Stoicheion Medal</item>
+        <waist>Witful Belt</waist>
+        <item>Super Reraiser</item>
+        <head>Umuthi Hat</head>
+        <item>Shining Cloth</item>
+        <main>Twebuliij</main>
+        <ammo>Impatiens</ammo>
+        <waist>Cascade Belt</waist>
+        <sub>Fulcio Grip</sub>
+        <back>Pahtli Cape</back>
+        <left_ear>Hecate's Earring</left_ear>
+        <item>Phoenix Feather</item>
+        <left_ring>Sangoma Ring</left_ring>
+        <item>Pearlsack</item>
+        <left_ear>Gifted Earring</left_ear>
+        <legs>Bokwus Slops</legs>
+        <item>T. Tama-hagane</item>
+        <head>Chelona Hat +1</head>
+        <hands>Repartie Gloves</hands>
+        <hands>Hagondes Cuffs</hands>
+        <feet>Chelona Boots</feet>
+        <back>Hecate's Cape</back>
+        <left_ring>Irrwisch Ring</left_ring>
+        <left_ring>Strendu Ring</left_ring>
+        <ammo>Sturm's Report</ammo>
+        <sub>Arbuda Grip</sub>
+        <head>Hagondes Hat</head>
+        <body>Hagondes Coat</body>
+        <legs>Hagondes Pants</legs>
+		<item>Hagondes Sabots</item>
+        <waist>Siegel Sash</waist>
+        <head>Bokwus Circlet</head>
+        <sub>Elder's Grip</sub>
+        <head>Haruspex Hat</head>
+        <hands>Serpentes Cuffs</hands>
+        <legs>Nares Trews</legs>
+        <feet>Weath. Souliers +1</feet>
+        <back>Toro Cape</back>
+        <back>Ogapepo Cape</back>
+        <item>Pterygotus</item>
+        <left_ear>Sortiarius Earring</left_ear>
+        <left_ear>Friomisi Earring</left_ear>
+        <left_ear>Lifestorm Earring</left_ear>
+        <left_ear>Loquac. Earring</left_ear>
+        <left_ear>Psystorm Earring</left_ear>
+        <feet>Serpentes Sabots</feet>
+        <neck>Eddy Necklace</neck>
+        <neck>Dark Torque</neck>
+        <back>Kumbira Cape</back>
+        <item>Gil</item>
+		<item>Merman's Earring</item>
+		<item>Merman's Earring</item>
+		<item>Acumen Ring</item>
+		<item>Hirudinea</item>
+		<item>Bounty Sickle</item>
+		<item>Goetia Petasos +2</item>
+		<item>Hi-Reraiser</item>
+		<item>Tamaxchi</item>
+		<item>Kaabnax Hat</item>
+		<item>Veneficium Ring</item>
+		<item>Caecus Grip</item>
+		
+      </set>
+    </group>
+  </sets>
+</spellcast>

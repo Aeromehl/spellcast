@@ -1,0 +1,72 @@
+<spellcast>
+  <sets>
+    <group name="exported">
+      <set name="exported">
+        <neck>Wiglen Gorget</neck>
+        <main>Pitchfork</main>
+        <item>Ace of Coins</item>
+        <sub>Kannakiri +2</sub>
+		<item>Happo Shuriken</item>
+		<item>Tancho +1</item>
+		<item>Iga Kyahan +2</item>
+		<item>Roppo Shuriken</item>
+		<item>Hachiya Shuriken</item>
+        <legs>Kaabnax Trousers</legs>
+        <main>Terra's Staff</main>
+        <item>Ghastly Stone</item>
+        <sub>Kamome</sub>
+        <item>Hi-Reraiser</item>
+        <left_ear>Loquac. Earring</left_ear>
+        <legs>Spry Tights</legs>
+        <item>Shinobi-Tabi</item>
+        <main>Ark Scythe</main>
+        <item>Shihei</item>
+        <neck>Magoraga Beads</neck>
+        <item>Pearlsack</item>
+        <item>Toolbag (Shino)</item>
+        <left_ring>Rajas Ring</left_ring>
+        <ammo>Impatiens</ammo>
+        <sub>Warp Cudgel</sub>
+        <neck>Twilight Torque</neck>
+        <sub>Pole Grip</sub>
+        <item>Toolbag (Shihe)</item>
+        <item>Kohlrouladen +1</item>
+        <head>Uk'uxkaj Cap</head>
+        <waist>Goading Belt</waist>
+        <left_ear>Dudgeon Earring</left_ear>
+        <item>Shining Cloth</item>
+        <left_ear>Reraise Earring</left_ear>
+        <sub>Pukulatmuj</sub>
+        <item>Sanjaku-Tenugui</item>
+        <back>Tactical Mantle</back>
+        <left_ear>Heartseeker Earring</left_ear>
+        <back>Kayapa Cape</back>
+        <waist>Flume Belt</waist>
+        <ammo>Hasty Pinion +1</ammo>
+        <waist>Phasmida Belt</waist>
+        <item>T. Tama-hagane</item>
+        <back>Misuuchi Kappa</back>
+        <ammo>White Tathlum</ammo>
+        <item>Linkpearl</item>
+        <range>Aliyat Chakram</range>
+        <sub>Tancho +1</sub>
+        <neck>Tlamiztli Collar</neck>
+        <item>Hotei Card</item>
+        <item>Instant Reraise</item>
+        <item>Bishamon Card</item>
+        <left_ring>Veneficium Ring</left_ring>
+        <waist>Shadow Belt</waist>
+        <item>Benten Card</item>
+        <item>Jurojin Card</item>
+        <item>Super Reraiser</item>
+        <item>Reraiser</item>
+        <item>Bream Sushi</item>
+        <item>Pterygotus</item>
+        <item>Goldfish Bowl</item>
+        <legs>Byakko's Haidate</legs>
+        <back>Buquwik Cape</back>
+        <item>Gil</item>
+      </set>
+    </group>
+  </sets>
+</spellcast>

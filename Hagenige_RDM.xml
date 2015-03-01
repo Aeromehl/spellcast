@@ -1,0 +1,282 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<Variables>
+	
+</Variables>	
+	
+<sets>
+	<group name="RDM" default="yes">		
+			<set name="RDMIdle">
+				<main>Terra's Staff</main>
+				<head>Warlock's Chapeau</head>
+				<neck>Mrc.Mjr. Charm</neck>
+				<lear>Astral Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Goliard Saio</body>
+				<hands>Duelist's Gloves</hands>
+				<lring>Serket Ring</lring>
+				<rring>Ether Ring</rring>
+				<back>Intensifying Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Nares Trews</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Hedgehog Bomb</ammo>
+				<sub>Bugard Strap +1</sub>
+			</set>
+			
+			<set name="RDMrest">
+				<main>Chatoyant Staff</main>
+				<sub>Ariesian Grip</sub>
+				<head>Cobra Hat</head>
+				<neck>Beak Necklace +1</neck>
+				<lear>Antivenom Earring</lear>
+				<rear>Boroka Earring</rear>
+				<body>Errant Hpl.</body>
+				<hands>Genie Gages</hands>
+				<lring>Serket Ring</lring>
+				<rring>Ether Ring</rring>
+				<back>Intensifying Cape</back>
+				<waist>Hierarch Belt</waist>
+				<legs>Baron's Slops</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Clarus Stone</ammo>
+			</set>
+			
+			<set name="RDMcures">
+				<main>Chatoyant Staff</main>
+				<head>Warlock's Chapeau</head>
+				<neck>Mrc.Mjr. Charm</neck>
+				<lear>Astral Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Goliard Saio</body>
+				<hands>Duelist's Gloves</hands>
+				<lring>Serket Ring</lring>
+				<rring>Ether Ring</rring>
+				<back>Intensifying Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Warlock's Tights</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Hedgehog Bomb</ammo>
+				<sub>Bugard Strap +1</sub>
+			</set>
+			
+			<set name="RDMenhancing">
+				<main>Chanter's Staff</main>
+				<head>Errant Hat</head>
+				<sub>Bugard Strap +1</sub>
+				<neck>Promise Badge</neck>
+				<lear>Astral Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Errant Hpl.</body>
+				<hands>Duelist's Gloves</hands>
+				<lring>Aquamarine Ring</lring>
+				<rring>Sapphire Ring</rring>
+				<back>Red Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Warlock's Tights</legs>
+				<feet>Errant Pigaches</feet>
+				<ammo>Hedgehog Bomb</ammo>
+			</set>	
+	
+			<set name="RDMenfeebling">
+				<head>Elite Beret</head>
+				<neck>Promise Badge</neck>
+				<lear>Astral Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Warlock's Tabard</body>
+				<hands>Errant Cuffs</hands>
+				<lring>Snow Ring</lring>
+				<rring>Snow Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Mahatma Slops</legs>
+				<feet>Errant Pigaches</feet>
+				<ammo>Sturm's Report</ammo>
+			</set>
+
+			<set name="RDMfire">
+				<main>Chatoyant Staff</main>
+				<head>Warlock's Chapeau</head>
+				<neck>Elemental Torque</neck>
+				<lear>Moldavite Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Teal Saio</body>
+				<hands>Zenith Mitts</hands>
+				<lring>Snow Ring</lring>
+				<rring>Snow Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Sturm's Report</ammo>
+			</set>	
+
+			<set name="RDMwater">
+				<main>Chatoyant Staff</main>
+				<head>Warlock's Chapeau</head>
+				<neck>Elemental Torque</neck>
+				<lear>Moldavite Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Teal Saio</body>
+				<hands>Zenith Mitts</hands>
+				<lring>Snow Ring</lring>
+				<rring>Snow Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Sturm's Report</ammo>
+			</set>	
+	
+			<set name="RDMstone">
+				<main>Chatoyant Staff</main>
+				<head>Warlock's Chapeau</head>
+				<neck>Elemental Torque</neck>
+				<lear>Moldavite Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Teal Saio</body>
+				<hands>Zenith Mitts</hands>
+				<lring>Snow Ring</lring>
+				<rring>Snow Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Sturm's Report</ammo>
+			</set>
+
+			<set name="RDMaero">
+				<main>Chatoyant Staff</main>
+				<head>Warlock's Chapeau</head>
+				<neck>Elemental Torque</neck>
+				<lear>Moldavite Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Teal Saio</body>
+				<hands>Zenith Mitts</hands>
+				<lring>Snow Ring</lring>
+				<rring>Snow Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Sturm's Report</ammo>
+			</set>
+	
+			<set name="RDMbliz">
+				<main>Chatoyant Staff</main>
+				<head>Warlock's Chapeau</head>
+				<neck>Elemental Torque</neck>
+				<lear>Moldavite Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Teal Saio</body>
+				<hands>Zenith Mitts</hands>
+				<lring>Snow Ring</lring>
+				<rring>Snow Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Sturm's Report</ammo>
+			</set>
+	
+			<set name="RDMthun">
+				<main>Chatoyant Staff</main>
+				<head>Warlock's Chapeau</head>
+				<neck>Elemental Torque</neck>
+				<lear>Moldavite Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Teal Saio</body>
+				<hands>Zenith Mitts</hands>
+				<lring>Snow Ring</lring>
+				<rring>Snow Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Sturm's Report</ammo>
+			</set>
+	
+			<set name="RDMdark">
+				<main>Chatoyant Staff</main>
+				<head>Warlock's Chapeau</head>
+				<neck>Elemental Torque</neck>
+				<lear>Moldavite Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Teal Saio</body>
+				<hands>Zenith Mitts</hands>
+				<lring>Snow Ring</lring>
+				<rring>Snow Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Witch Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Cobra Crackows</feet>
+				<ammo>Sturm's Report</ammo>
+			</set>
+	</group>
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Engaged" set="RDMIdle"/>
+				<action type="equip" when="Resting" set="RDMrest"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="RDMIdle"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="RDMIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			
+			
+	<!-- Spell Rules -->	
+			<if Skill="Healing Magic">
+				<action type="equip" when="Precast" set="RDMcures"/>
+			</if>
+			<else Skill="Enhancing Magic">
+				<action type="equip" when="Precast" set="RDMenhancing"/>
+			</else>
+			<else Skill="Enfeebling Magic">
+				<action type="equip" when="Precast" set="RDMenfeebling"/>
+			</else>	
+			<else spell="Enfire*|Fire*|Firaga*|Flare*|Burn|Blaze*|Firaja">
+				<action type="equip" when="Precast" set="RDMfire"/>
+			</else>
+			<else spell="Enwater*|Water*|Waterga*|Flood*|Drown|Poison*|Waterja">
+				<action type="equip" when="Precast" set="RDMwater"/>
+			</else>	
+			<else spell="Enstone*|Stone*|Stonega*|Quake*|Rasp|Break*|Stoneja">
+				<action type="equip" when="Precast" set="RDMstone"/>
+			</else>
+			<else spell="Enaero*|Aero*|Aeroga*|Tornado*|Choke|Aeroja|Gravity">
+				<action type="equip" when="Precast" set="RDMaero"/>
+			</else>	
+			<else spell="Enblizzard*|Blizzard*|Blizzaga*|Freeze*|Frost|Blizzaja|Ice Spikes|Bind">
+				<action type="equip" when="Precast" set="RDMbliz"/>
+			</else>	
+			<else spell="Enthunder*|Thunder*|Thundaga*|Burst*|Shock|Thundaja|Shock Spikes">
+				<action type="equip" when="Precast" set="RDMthun"/>
+			</else>
+			<else spell="Sleep*|Drain*|Bio*|Aspir">
+				<action type="equip" when="Precast" set="RDMdark"/>
+			</else>	
+				
+				 
+				 
+				 
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+</rules>
+</spellcast>

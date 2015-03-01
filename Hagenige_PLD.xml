@@ -1,0 +1,429 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<Variables>
+	<var name = "PLDMainTank"></var>
+	<var name = "PLDMain">Organics</var>
+	<var name = "PLDSub"></var>
+	<var name = "PLDShield"></var>
+	<!-- Swords -->
+	<!-- Joyeuse, Magnus Sword, Organics, Hannibal's Sword -->
+	<!-- Shields -->
+	<!-- Seigneur Shield, Terror Shield -->
+	<var name = "PLDtpAmmo"></var>
+	<var name = "PLDfcastAmmo">Incantor Stone</var>
+	<var name = "PLDMagnusAmmo">Kheshig Blade</var>
+</Variables>	
+	
+<sets>
+	<group name="PDT" default="yes">			
+			<set name="PLDIdle">
+				<item>Nierenschutz</item>
+				<item>Caballarius Breeches +1</item>
+				<item>Cab. Breeches +1</item>
+				<item>Warp Ring</item>
+				<main>$PLDMainTank</main>
+				<item>Nourishing Earring +1</item>
+				<main>Xiutleato</main>
+				<sub>Mikinaak Breastplate</sub>
+				<main>Excalibur</main>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Twilight Helm</head>
+	    		<neck>Creed Collar</neck>
+	    		<lear>Knight's Earring</lear>
+				<rear>Buckler Earring</rear>
+	    		<body>Twilight Mail</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Jelly Ring</lring>
+				<rring>Dark Ring</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Flume Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Phorcys Schuhs</feet>
+				<item>Vanir Battery</item>
+				<item>Quiahuiz Helm</item>
+				<item>Aegis</item>
+				<item>Dark Ring</item>
+				<item>Killer Shortbow</item>
+				<item>Sharur</item>
+				<item>Instant Reraise</item>
+				<item>Super Reraiser</item>
+				<item>Reraiser</item>
+				<item>Hi-Reraiser</item>
+				<item>Caballarius Breeches +1</item>
+				<item>Nourish. Earring</item>
+				<item>Nourish. Earring +1</item>
+				<item>Echo Drops</item>
+				<item>Hasty Pinion +1</item>
+				<item>Mes. Haubergeon</item>
+				<item></item>
+				
+			
+				<item>Miki. Gauntlets</item>
+				<item>Miki. Breastplate</item>
+				<item></item>
+				<item></item>
+				<item>Asperity Necklace</item>
+				<item>Atheling Mantle</item>
+				<item>Windbuffet Belt</item>
+				<item>Merman's Earring</item>
+				<item>Knight's Earring</item>
+				<item>Light Gorget</item>
+				<item>Light Belt</item>
+				<item>Shadow Belt</item>
+				<item>Stoicheion Medal</item>
+				<item>Friomisi Earring</item>
+				<item>Hecate's Earring</item>
+				<item>Toro Cape</item>
+				<item>Rev. Coronet +1</item>
+				<item>Cab. Surcoat +1</item>
+				<item>Rajas Ring</item>
+				<item>Shadow Mantle</item>
+				<item>Shadow Ring</item>
+				<item>Engulfer Cape</item>
+				<item>Phulax Bow</item>
+				<item>Gor. Brayettes +1</item>
+				<item>Phorcys Korazin</item>
+				<item>Otomi Helm</item>
+				<item>Iztaasu +2</item>
+				<item>Instant Reraise</item>
+				<item>Oneiros Annulet</item>
+				<item>Heartseeker Earring</item>
+				<item>Enlivened Ring</item>
+				<item>Cab. Leggings +1</item>
+				<item>Sharur</item>
+				<item>Xaddi Headgear</item>
+				<item>Xaddi Cuisses</item>
+				<item>Xaddi Boots</item>
+				<item>Umuthi Gloves</item>
+				<item>Mikinaak Breastplate</item>
+				<item>Whirlpool Greaves</item>
+			</set>
+			
+			<set name="PLDTP">
+				<main>$PLDMainTank</main>
+				<sub>Capacity Ring</sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Rev. Coronet +1</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+	    		<body>Cab. Surcoat +1</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Jelly Ring</lring>
+				<rring>Dark Ring</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Chuq'aba Belt</waist>
+	    		<legs>Outrider Hose</legs>
+	    		<feet>Phorcys Schuhs</feet>
+			</set>
+			
+			<set name="PLDWaltz">
+				<main>$PLDMainTank</main>
+				<sub>Cho'j Band</sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Rev. Coronet +1</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+	    		<body>Mekira Meikogai</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Asklepian Ring</lring>
+				<rring>Valseur's</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Flume Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Phorcys Schuhs</feet>
+			</set>
+			
+			<set name="PLDCure">
+				<main>$PLDMainTank</main>
+				<sub></sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Rev. Coronet +1</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Knight's Earring</lear>
+				<rear>Loquac. Earring</rear>
+	    		<body>Mekira Meikogai</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Veneficium Ring</lring>
+				<rring>Kunaji Ring</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Chuq'aba Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Phorcys Schuhs</feet>
+			</set>
+			
+			<set name="PLDWS">
+				<main>$PLDMainTank</main>
+				<sub>$PLDShield</sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Mekira-oto</head>
+	    		<neck>Asperity Necklace</neck>
+	    		<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+	    		<body>Mekira Meikogai</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Pyrosoul Ring</lring>
+	    		<rring>Pyrosoul Ring</rring>
+	    		<back>Forager's Mantle</back>
+	    		<waist>Anguinus Belt</waist>
+	    		<legs>Outrider Hose</legs>
+	    		<feet>Phorcys Schuhs</feet>
+			</set>
+			
+			<set name="PLDenmity">
+				<main>$PLDMainTank</main>
+				<sub>$PLDShield</sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Hero's Galea</head>
+	    		<neck>Invidia Torque</neck>
+	    		<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+	    		<body>Cab. Surcoat +1</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Jelly Ring</lring>
+				<rring>Hercules' Ring</rring>
+	    		<back>Valor Cape</back>
+	    		<waist>Goading Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Ruffian Leggings</feet>
+			</set>			
+	</group>
+	
+	<group name="MDT" default="no">			
+			<set name="PLDIdle">
+				<main>$PLDMainTank</main>
+				<sub></sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Twilight Helm</head>
+	    		<neck>Creed Collar</neck>
+	    		<lear>Knight's Earring</lear>
+				<rear>Buckler Earring</rear>
+	    		<body>Twilight Mail</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Jelly Ring</lring>
+				<rring>Dark Ring</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Flume Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Phorcys Schuhs</feet>
+			</set>
+			
+			<set name="PLDTP">
+				<main>$PLDMainTank</main>
+				<sub></sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Rev. Coronet +1</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+	    		<body>Cab. Surcoat +1</body>
+	    		<hands>Outrider Mittens</hands>
+	    		<lring>Merman's Ring</lring>
+				<rring>Minerva's Ring</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Chuq'aba Belt</waist>
+	    		<legs>Outrider Hose</legs>
+	    		<feet>Outrider Greaves</feet>
+			</set>
+			
+			<set name="PLDWaltz">
+				<main>$PLDMainTank</main>
+				<sub></sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Rev. Coronet +1</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+	    		<body>Mekira Meikogai</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Asklepian Ring</lring>
+				<rring>Valseur's</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Flume Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Phorcys Schuhs</feet>
+			</set>
+			
+			<set name="PLDCure">
+				<main>$PLDMainTank</main>
+				<sub></sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Rev. Coronet +1</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Knight's Earring</lear>
+				<rear>Loquac. Earring</rear>
+	    		<body>Mekira Meikogai</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Veneficium Ring</lring>
+				<rring>Kunaji Ring</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Chuq'aba Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Phorcys Schuhs</feet>
+			</set>
+			
+			<set name="PLDWS">
+				<main>$PLDMainTank</main>
+				<sub>$PLDShield</sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Mekira-oto</head>
+	    		<neck>Asperity Necklace</neck>
+	    		<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+	    		<body>Mekira Meikogai</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Pyrosoul Ring</lring>
+	    		<rring>Pyrosoul Ring</rring>
+	    		<back>Forager's Mantle</back>
+	    		<waist>Anguinus Belt</waist>
+	    		<legs>Outrider Hose</legs>
+	    		<feet>Phorcys Schuhs</feet>
+			</set>
+			
+			<set name="PLDenmity">
+				<main>$PLDMainTank</main>
+				<sub>$PLDShield</sub>
+	    		<ammo>$PLDtpAmmo</ammo>
+				<head>Hero's Galea</head>
+	    		<neck>Invidia Torque</neck>
+	    		<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+	    		<body>Cab. Surcoat +1</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Jelly Ring</lring>
+				<rring>Hercules' Ring</rring>
+	    		<back>Valor Cape</back>
+	    		<waist>Goading Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Ruffian Leggings</feet>
+			</set>			
+	</group>
+	
+	<group name="Twilight" default="no">			
+			<set name="PLDIdle">
+			
+				<sub></sub>
+	    		<head>Twilight Helm</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Knight's Earring</lear>
+				<rear>Brutal Earring</rear><!--Buckler Earring-->
+	    		<body>Twilight Mail</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Jelly Ring</lring>
+				<rring>Dark Ring</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Flume Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Ruffian Leggings</feet>
+			</set>
+			
+			<set name="PLDTP">
+				
+				<sub></sub>
+	    		<head>Twilight Helm</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Knight's Earring</lear>
+				<rear>Brutal Earring</rear><!--Buckler Earring-->
+	    		<body>Twilight Mail</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Jelly Ring</lring>
+				<rring>Dark Ring</rring>
+	    		<back>Weard Mantle</back>
+	    		<waist>Flume Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Ruffian Leggings</feet>
+			</set>
+			
+			<set name="PLDWS">
+				
+				<sub></sub>
+	    		<head>Twilight Helm</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Knight's Earring</lear>
+				<rear>Brutal Earring</rear><!--Buckler Earring-->
+	    		<body>Twilight Mail</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Jelly Ring</lring>
+				<rring>Dark Ring</rring>
+	    		<back>Weard Mantle</back>
+	    		<waist>Flume Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Ruffian Leggings</feet>
+			</set>
+			
+			<set name="PLDenmity">
+			
+				<sub></sub>
+	    		<head>Twilight Helm</head>
+	    		<neck>Twilight Torque</neck>
+	    		<lear>Knight's Earring</lear>
+				<rear>Buckler Earring</rear>
+	    		<body>Twilight Mail</body>
+	    		<hands>Cizin Mufflers</hands>
+	    		<lring>Jelly Ring</lring>
+				<rring>Dark Ring</rring>
+	    		<back>Iximulew Cape</back>
+	    		<waist>Flume Belt</waist>
+	    		<legs>Inmicus Cuisses</legs>
+	    		<feet>Ruffian Leggings</feet>
+			</set>			
+	</group>
+	
+	
+		
+	<group name="MISC" default="no">
+		<item>Phorcys Korazin</item>
+		<item>Kheshig Blade</item>
+		<item>Phulax Bow</item>
+		<item>Killer Shortbow</item>
+		<item></item>
+	</group>	
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Resting" set="PLDIdle"/>
+				<action type="equip" when="Engaged" set="PLDTP"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="PLDTP"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="PLDIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			<if commandprefix="/ws|/weaponskill">
+				<action type="equip" when="Precast" Set="PLDWS" /> 
+			</if>
+			
+	<!-- Spell Rules -->	
+			<if spell="Provoke|Flash|Sentinel|Reprisal|Holy*|Banish*|Defender|Warcry|Aggressor|Shield Bash|">
+				<action type="equip" when="Precast" set="PLDenmity"/>
+			</if>
+			
+			<if spell="Cure|Cure II|Cure III|Cure IV|Cure V">
+				<action type="equip" when="Precast" set="PLDCure"/>
+			</if>
+			
+			<if spell="Curing*">
+				<action type="equip" when="Precast" set="PLDWaltz"/>
+			</if>
+		
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+
+</rules>
+</spellcast>

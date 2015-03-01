@@ -1,0 +1,659 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<sets>
+<!-- Main Group -->
+		<group name = "NewUpdated" default = "yes">
+  	<!-- Main Sets -->
+		<!-- Idle Set -->
+			<set name="Idle">
+				<range>Armageddon</range>
+				<ammo>$TPammo</ammo>
+				<head>Nvrch. Tricorne +2</head>
+                <neck>Navarch's Choker</neck>
+                <lear>Volley Earring</lear>
+                <rear>Brutal Earring</rear>
+                <body>Navarch's Frac +1</body>
+                <hands>Nvrch. Gants +2</hands>
+                <lring>Behemoth Ring</lring>
+                <rring>Rajas Ring</rring>
+                <back>Gunslinger's Cape</back>
+                <waist>Commodore Belt</waist>
+                <legs>Nvrch. Culottes +2</legs>
+                <feet>Hermes' Sandals +1</feet>
+            </set>
+		<!-- Ranged ACC+ -->
+			<set name = "Ranged|Melee">
+                <range>Armageddon</range>
+				<ammo>$TPammo</ammo>
+				<head>Nvrch. Tricorne +2</head>
+                <neck>Navarch's Choker</neck>
+                <lear>Volley Earring</lear>
+                <rear>Clearview Earring</rear>
+                <body>Navarch's Frac +1</body>
+                <hands>Nvrch. Gants +2</hands>
+                <lring>Behemoth Ring</lring>
+                <rring>Rajas Ring</rring>
+                <back>Gunslinger's Cape</back>
+                <waist>Commodore Belt</waist>
+                <legs>Entois Trousers</legs>
+                <feet>Nvrch. Bottes +1</feet>
+            </set>
+		<!-- WS Set -->
+			<set name = "WSacc">
+              	<range>Armageddon</range>
+				<ammo>$WSammo</ammo>
+				<head>Nvrch. Tricorne +2</head>
+                <neck>Navarch's Choker</neck>
+                <lear>Volley Earring</lear>
+                <rear>Brutal Earring</rear>
+                <body>Navarch's Frac +1</body>
+                <hands>Nvrch. Gants +2</hands>
+                <lring>Behemoth Ring</lring>
+                <rring>Rajas Ring</rring>
+                <back>Gunslinger's Cape</back>
+                <waist>Commodore Belt</waist>
+                <legs>Entois Trousers</legs>
+                <feet>Nvrch. Bottes +1</feet>
+			</set>
+		<!-- WS Set (MAB)--><!-- WILDFIRE -->
+			<set name = "WSmab"><!-- 35 MAB total -->
+				<range>Armageddon</range>
+				<ammo>$WSMABammo</ammo>
+				<sub>Elder Grip</sub><!-- 1MAB -->
+              	<head>Pandinus Beret</head><!-- 6MAB -->
+                <neck>Stoicheion Medal</neck><!-- 8MAB -->
+                <lear>Moldavite Earring</lear><!-- 5MAB -->
+                <rear>Hecate's Earring</rear><!-- 6MAB -->
+                <body>Loki's Kaftan</body>
+                <hands>Thurandaut Gloves</hands>
+                <lring>Behemoth Ring</lring>
+                <rring>Breeze Ring</rring>
+                <back>Gunslinger's Cape</back>
+                <waist>Shadow Belt</waist><!-- 3MAB -->
+                <legs>Nvrch. Culottes +2</legs>
+                <feet>Comm. Bottes +2</feet><!-- 6MAB -->
+			</set>	
+		<!-- MAB Set for Shots -->
+			<set name = "Shots">
+				<range>Armageddon</range>
+				<ammo>$WSMABammo</ammo>
+				<head>Corsair's Tricorne</head><!-- Full AF3+2 set -->
+                <neck>Stoicheion Medal</neck>
+                <lear>Moldavite Earring</lear>
+                <rear>Hecate's Earring</rear>
+                <body>Navarch's Frac +1</body><!-- Full AF3+2 set -->
+                <hands>Thurandaut Gloves</hands><!-- Full AF3+2 set -->
+                <lring>Behemoth Ring</lring>
+                <rring>Rajas Ring</rring>
+                <back>Gunslinger's Cape</back>
+                <waist>Aquiline Belt</waist>
+                <legs>Nvrch. Culottes +2</legs><!-- Full AF3+2 set -->
+                <feet>Comm. Bottes +2</feet><!-- Full AF3+2 set -->
+			</set>
+	<!-- Ammo Sets -->
+		<!-- TP Ammo -->
+            <set name="TPgun" baseset="Ranged">
+              <ammo>$TPammo</ammo>
+            </set>
+		<!-- Weaponskill Ammo -->
+            <set name="WSgun" baseset="WSacc">
+              <ammo>$WSammo</ammo>
+            </set>
+		<!-- Weaponskill w/ MAB Ammo -->
+            <set name="MABgun" baseset="WSmab">
+              <ammo>$WSMABammo</ammo>
+            </set>	
+		<!-- *Shot Ammo -->
+            <set name="SHOTgun" baseset="Shots">
+              <ammo>$SHOTammo</ammo>
+            </set>
+		<!-- Barrage Ammo -->
+            <set name="BarrageGun" baseset="Ranged">
+              <ammo>$BARRAGEammo</ammo>
+            </set>	
+	
+            
+	<!-- ROLL SETS -->
+		<!-- Without Luzaf Ring -->
+			<!-- Normal Rolls Only -->
+			<set name="Roll">
+			  <head>Comm. Tricorne +1</head>
+			  <hand>Nvrch. Gants +1</hand>
+			</set>
+			<!-- Emperian Rolls Only -->
+			<set name="EmpRoll">
+			  <head>Nvrch. Tricorne +2</head>
+			  <hand>Nvrch. Gants +2</hand>
+			  <body>Navarch's Frac +1</body>
+			  <legs>Nvrch. Culottes +2</legs>
+			  <feet>Nvrch. Bottes +1</feet>
+			</set>
+			
+		<!-- With Luzaf Ring -->	
+			<!-- Normal Rolls Only -->
+			<set name="LuzafRoll">
+			  <head>Comm. Tricorne +1</head>
+			  <rring>Luzaf's Ring</rring>
+			  <hand>Nvrch. Gants +1</hand>
+			</set>
+			<!-- Emperian Rolls Only -->
+			<set name="LuzEmp">
+			  <head>Nvrch. Tricorne +2</head>
+			  <hand>Nvrch. Gants +2</hand>
+			  <body>Navarch's Frac +1</body>
+			  <legs>Nvrch. Culottes +2</legs>
+			  <feet>Nvrch. Bottes +1</feet>
+			  <rring>Luzaf's Ring</rring>
+			</set>
+			
+				
+	<!-- Barrage Sets -->
+		
+		
+		</group>
+<!-- MISC Group -->
+		<group name = "MiscCrap">
+			<set name = "misc">
+				<item>Prism Powder</item>
+				<item>Silent Oil</item>
+				<item>Martial Gun</item>
+				<item>Miramar Gun</item>
+				<item>Bullet</item>
+				<item>Bullet</item>
+				<item>Bullet Pouch</item>
+				<item>Bullet Pouch</item>
+				<item>Bronze Bullet</item>
+				<item>Bronze Bullet</item>
+				<item>Steel Bullet</item>
+				<item>Stl. Bull. Pouch</item>
+				<item>Brz. Bull. Pouch</item>
+				<item>Brz. Bull. Pouch</item>
+				<item>Shinobi-Tabi</item>
+				<item>Sanjaku-Tenugui</item>
+				<item>Toolbag (Shihe)</item>
+				<item>Shihei</item>
+				<item>Kindred's Seal</item>
+				<item>Beastmen's Seal</item>
+				<item>Pearlsack</item>
+				<item>Sole Sushi</item>
+				<item>Squid Sushi</item>
+				<item>Crab Sushi</item>
+				<item>Federation Earring</item>
+				<item>Kingdom Earring</item>
+				<item>Emperor Band</item>
+				<item>Archer's Knife</item>
+				<item>Archer's Knife</item>
+				<item>Rajas Ring</item>
+				<item>Thunder Card</item>
+				<item>Fire Card</item>
+				<item>Ice Card</item>
+				<item>Earth Card</item>
+				<item>Light Card</item>
+				<item>Dark Card</item>
+				<item>Thnd. Card Case</item>
+				<item>Dark Card Case</item>
+				<item>Light Card Case</item>
+				<item>Ice Card Case</item>
+				<item>Fire Card Case</item>
+				<item>Thunder Card</item>
+				<item>Paktong Bullet</item>
+				<item>Paktong Bullet</item>
+				<item></item>
+				<item>Chatoyant Staff</item>
+				<item>Iron Bullet</item>
+				<item>Iron Bullet</item>
+				<item>Iron Bull. Pouch</item>
+				<item>Cor. Bull. Pouch</item>
+				<item>Corsair Bullet</item>
+				<item>Iron Bull. Pouch</item>
+				<item></item>
+				<item>Orichalc. Bullet</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item>Joyeuse</item>
+				<item>Magian Specs.</item>
+				<item>Huracan</item>
+				<item></item>
+				<item>Magnatus</item>
+				<item>Mercurial Kris
+				</item>
+				<item>Trailer's Kukri</item>
+				<item>Archer's Knife</item>
+				<item>Elder Grip</item>
+				<item>Oberon's Bullet</item>
+				<item>Shihei</item>
+				<item>Toolbag (Shihe)</item>
+				<item></item>
+				<item>Instant Warp</item>
+				<item>Instant Retrace</item>
+				<item></item>
+				<item>Trump Card</item>
+				<item>Trump Card Case</item>
+			</set>
+		</group>
+</sets>
+<variables>
+	<var name = "TPammo">Iron Bullet</var><!-- TP Bullets GO HERE -->
+	<var name = "WSammo">Iron Bullet</var><!-- WS ACC Bullets GO HERE -->
+	<var name = "WSMABammo">Bronze Bullet</var><!-- WS MAB Bullets GO HERE -->
+	<var name = "SHOTammo">Orichalc. Bullet</var><!-- SHOT Bullets GO HERE -->
+	<var name = "BARRAGEammo">Bronze Bullet</var><!-- BARRAGE Bullets GO HERE -->
+	<var name = "Autoshoot">0</var><!-- AutoShoot Variable 1=yes 2=no -->
+</variables>
+<rules>
+	
+	
+	
+			<action type = "equip" when = "Engaged" set = "Melee"/>
+			<action type = "equip" when = "Idle" set = "Idle"/>		
+
+<!-- AutoShoot Rules (For use with "var name Autoshoot") -->
+		<if advanced = ' "%status" = "engaged" AND "$Autoshoot" = "1"'>
+			<if CommandPrefix = "/ra|/range|/ranged">
+                <action type = "command" when = "aftercast">wait 9;input /range &lt;t&gt;</action>
+			</if>	
+        </if>
+<!-- Engaged Rules -->				
+	<if status = "Engaged">			
+			
+			<if CommandPrefix = "/ra|/range|/ranged">		
+				<if buffactive="Barrage">
+					<action type = "equip" when = "precast" set = "BarrageGun"/>
+					<command when = "aftercast">wait 3; input  //sc s Melee</command>
+					<!--<action type = "equip" when = "aftercast" set = "Melee"/>--> 
+				</if>
+				<else>
+					<action type = "equip" when = "precast" set = "TPgun"/>
+					<command when = "aftercast">wait 3; input  //sc s Melee</command>
+					<!--<action type = "equip" when = "aftercast" set = "Melee"/>--> 
+				</else>
+			</if>	
+			<if Spell = "Slug Shot|Detonator|Hot Shot|Split Shot|Sniper Shot">
+				<action type ="equip" when ="precast" set ="WSgun"/>
+				<action type ="equip" when ="aftercast" set ="Melee"/> 	
+			</if>
+			<if Spell = "Leaden Salute|Wildfire">
+				<action type ="equip" when ="precast" set ="MABgun"/>
+				<action type ="equip" when ="aftercast" set ="Melee"/> 	
+			</if>
+			<if Type = "CorsairShot|Corsair Shot|Quick Draw">
+				<action type ="equip" when ="precast" set ="SHOTgun"/>
+				<action type ="equip" when ="aftercast" set ="Melee"/> 	
+			</if>
+			
+	</if>	
+<!-- Not Engaged Rules(not engaged) -->	
+	<else>
+			
+			<if CommandPrefix = "/ra|/range|/ranged">
+				<if buffactive = "Barrage">
+					<action type = "equip" when = "precast" set = "BarrageGun"/>
+					<command when = "aftercast">wait 3; input  //sc s Idle</command>
+					<!--<action type = "equip" when = "aftercast" set = "Melee"/>--> 
+				</if>
+				<else>
+					<action type = "equip" when = "precast" set = "TPgun"/>
+					<command when = "aftercast">wait 3; input  //sc s Idle</command>
+					<!--<action type = "equip" when = "aftercast" set = "Melee"/>--> 
+				</else>
+			</if>	
+			<if Spell = "Slug Shot|Detonator|Hot Shot|Split Shot|Sniper Shot">
+				<action type ="equip" when ="precast" set ="WSgun"/>
+				<action type ="equip" when ="aftercast" set ="Idle"/> 	
+			</if>
+			<if Spell = "Leaden Salute|Wildfire">
+				<action type ="equip" when ="precast" set ="MABgun"/>
+				<action type ="equip" when ="aftercast" set ="Idle"/> 	
+			</if>
+			<if Type = "CorsairShot|Corsair Shot|Quick Draw">
+				<action type ="equip" when ="precast" set ="SHOTgun"/>
+				<action type ="equip" when ="aftercast" set ="Idle"/> 	
+			</if>
+		
+	</else>		
+
+	
+<!-- 0000000000000000000000000000000000000000000000000000000 -->
+
+	
+<!-- Luzaf's Ring macrod in for alliance events (when engaged) -->	
+	<if status = "engaged">
+		<if	PartyCountGT = "6">
+			<if Type = "CorsairRoll">
+				<if spell = "Courser's Roll|Caster's Roll|Allies' Roll|Tactician's Roll|Blitzer's Roll">
+					<action type ="equip" when ="precast" set ="LuzEMP"/>
+					<action type ="equip" when ="aftercast" set ="Melee"/> 	
+	            </if>
+				<else>
+					<action type ="equip" when ="precast" set ="LuzafRoll"/>
+					<action type ="equip" when ="aftercast" set ="Melee"/>
+				</else>
+			</if>
+	    </if>
+		<else>
+			<if Type = "CorsairRoll">
+				<if spell = "Courser's Roll|Caster's Roll|Allies' Roll|Tactician's Roll|Blitzer's Roll">
+					<action type ="equip" when ="precast" set ="EMPRoll"/>
+					<action type ="equip" when ="aftercast" set ="Melee"/> 	
+				</if>
+				<else>
+					<action type ="equip" when ="precast" set ="Roll"/>
+					<action type ="equip" when ="aftercast" set ="Melee"/>
+				</else>	
+			</if>
+	    </else>
+	</if>
+<!-- Luzaf's Ring macrod in for alliance events (not engaged) -->	
+	<else>
+		<if	PartyCountGT = "6">
+			<if Type = "CorsairRoll">
+				<if spell = "Courser's Roll|Caster's Roll|Allies' Roll|Tactician's Roll|Blitzer's Roll">
+					<action type ="equip" when ="precast" set ="LuzEMP"/>
+					<action type ="equip" when ="aftercast" set ="Idle"/> 	
+	            </if>
+				<else>
+					<action type ="equip" when ="precast" set ="LuzafRoll"/>
+					<action type ="equip" when ="aftercast" set ="Idle"/>
+				</else>
+			</if>
+	    </if>
+		<else>
+			<if Type = "CorsairRoll">
+				<if spell = "Courser's Roll|Caster's Roll|Allies' Roll|Tactician's Roll|Blitzer's Roll">
+					<action type ="equip" when ="precast" set ="EMPRoll"/>
+					<action type ="equip" when ="aftercast" set ="Idle"/> 	
+				</if>
+				<else>
+					<action type ="equip" when ="precast" set ="Roll"/>
+					<action type ="equip" when ="aftercast" set ="Idle"/>
+				</else>	
+			</if>
+	    </else>
+	</else>
+		
+		
+<!-- 0000000000000000000000000000000000000000000000000000000 -->
+
+		
+<!-- Change Spell *Roll~>Double-up if Active -->	
+		<if advanced = '(bool)buffactive("%Spell")'>
+            <changespell Spell = "Double-Up"/>
+            <ChangeTarget Target = "&lt;me&gt;"/>
+        </if>
+        <if spell = "Double-Up">
+            <command when = "precast">input /echo Double me claim to Double the booty! >>>>> \xFD\x02\x02\x1F\x47\xFD</command>
+		</if>
+
+		
+<!-- 0000000000000000000000000000000000000000000000000000000 -->
+
+
+<!-- Roll Rules -->	
+        <If spell = "*Roll">
+		  <if PartyCountLT = "7">
+            <if spell = "choral*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x53\xFD (Lucky: 2 / Unlucky: 6) ~ Spell Interupt  - ~ Pt Member Bonus: BRD"/></command>
+                
+            </if>
+            <elseif spell = "samurai*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x55\xFD (Lucky: 2 [+32] / Unlucky: 6 [+4]) ~ Store TP + ~Pt Member Bonus: SAM [+10]"/></command>
+                
+            </elseif>
+            <elseif spell = "scholar*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\xB8\xFD (Lucky: 2 / Unlucky: 6) ~ Conserve Mp + ~ Pt Member Bonus: SCH"/></command>
+                
+            </elseif>
+            <elseif spell = "magus*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x59\xFD (Lucky: 2 [+20] / Unlucky: 6 [+3]) ~ M. Def + ~ Pt Member Bonus: BLU [+8]"/></command>
+                
+            </elseif>
+            <elseif spell = "healer*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4C\xFD (Lucky: 3 [+10] / Unlucky: 7 [+1]) ~ Hmp + ~ Pt Member Bonus: WHM [+3]"/></command>
+                
+            </elseif>
+            <elseif spell = "monk*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4B\xFD (Lucky: 3 [+32] / Unlucky: 7 [+4]) ~ Subtle Blow + ~ Pt Member Bonus: MNK [+10]"/></command>
+                
+            </elseif>
+            <elseif spell = "drachen*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x57\xFD (Lucky: 3 [+9] / Unlucky: 7 [+1]) ~ Pet: M. Atk &amp; M. Acc + ~ Pt Member Bonus: DRG [+4]"/></command>
+                
+            </elseif>
+            <elseif spell = "gallant*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x50\xFD (Lucky: 3 [+24%] / Unlucky: 7 [+3%]) ~ Dmg Reflection ~ Pt Member Bonus: PLD [+10%]"/></command>
+                
+            </elseif>
+            <elseif spell = "dancer*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\xB7\xFD (Lucky: 3 [11 hp/tick] / Unlucky: 7 [1 hp/tick]) ~ HP Regen ~ Pt Member Bonus: DNC [+3 hp/tick]"/></command>
+                
+            </elseif>
+            <elseif spell = "ninja*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x56\xFD (Lucky: 4 / Unlucky: 8) ~ Eva + ~ Pt Member Bonus: NIN"/></command>
+                
+            </elseif>
+            <elseif spell = "hunter*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x54\xFD (Lucky: 4 [+40] / Unlucky: 8 [+5]) ~ Acc &amp; R. Acc + ~ Pt Member Bonus: RNG [+15]"/></command>
+                
+            </elseif>
+            <elseif spell = "chaos*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x51\xFD (Lucky: 4 [+25%] / Unlucky: 8 [+3%])  ~ Atk + ~ Pt Member Bonus: DRK [+10%]"/></command>
+                
+            </elseif>
+            <elseif spell = "puppet*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x5B\xFD (Lucky: 4 / Unlucky: 8) ~ Pet: Acc &amp; R. Acc + ~ Pt Member Bonus: PUP"/></command>
+                
+            </elseif>
+            <elseif spell = "beast*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x52\xFD (Lucky: 4 / Unlucky: 8) ~ Pet: Atk &amp; R. Atk + ~ Pt Member Bonus: BST"/></command>
+                
+            </elseif>
+            <elseif spell = "warlock*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4E\xFD (Lucky: 4 / Unlucky: 8) ~ M. Acc + ~ Pt Member Bonus: RDM"/></command>
+                
+            </elseif>
+            <elseif spell = "corsair*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x5A\xFD (Lucky: 5 [+20%] / Unlucky: 9 [+8%]) ~ Exp +"/></command>
+                
+            </elseif>
+            <elseif spell = "evoker*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x58\xFD (Lucky: 5 [+3] / Unlucky: 9 [+1]) ~ Refresh ~ Pt Member Bonus: SMN [+1]"/></command>
+                
+            </elseif>
+            <elseif spell = "rogue*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4F\xFD (Lucky: 5 [+12%] / Unlucky: 9 [+1%]) ~ Crit. Hit + ~ Pt Member Bonus: THF [+6%]"/></command>
+                
+            </elseif>
+            <elseif spell = "fighter*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4A\xFD (Lucky: 5 [+12%] / Unlucky: 9 [+1%]) ~ Dbl. Atk + ~ Pt Member Bonus: WAR [+6%]"/></command>
+                
+            </elseif>
+            <elseif spell = "wizard*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4D\xFD (Lucky: 5 [+10] / Unlucky: 9 [+1]) ~ M. Atk + ~ Pt Member Bonus: BLM [+3]"/></command>
+                
+            </elseif>
+			<elseif spell = "bolter*">
+                <command when = "Precast">input /echo Bolter's Roll (Lucky: 3 [+12%] / Unlucky: 9 [+5%]) ~ Movement Speed + ~ 11 [+25%]"/></command>
+                
+            </elseif>
+			<elseif spell = "blitzer*">
+                <command when = "Precast">input /echo Blitzer's Roll (Lucky: 4 [+11.3%] / Unlucky: 9 [+1.5%]) Haste ~ 11 [+12.1%]"/></command>
+                
+            </elseif>
+			<elseif spell = "tactician*">
+                <command when = "Precast">input /echo Tactician's Roll (Lucky: 5 [+3] / Unlucky: 8 [+0]) Regain  ~ 11 [+4]"/></command>
+                
+            </elseif>
+			<elseif spell = "Caster*">
+                <command when = "Precast">input /echo Caster's Roll (Lucky: 2 [+18%] / Unlucky: 7 [+5%]) Fast Cast  ~ 11 [+20%]"/></command>
+                
+            </elseif>
+			<elseif spell = "Courser*">
+                <command when = "Precast">input /echo Courser's Roll (Lucky: 4 [] / Unlucky: 9 []) Snapshot  ~ 11 []"/></command>
+                
+            </elseif>
+			<elseif spell = "Allies*">
+                <command when = "Precast">input /echo Allies' Roll (Lucky: 3 [+17%] / Unlucky: 10 [+5%]) WS damage/acc  ~ 11 [+17%]"/></command>
+                
+            </elseif>
+			<elseif spell = "Miser*">
+                <command when = "Precast">input /echo Miser's Roll (Lucky: 5 [+20] / Unlucky: 7 [+2]) Save TP  ~ 11 [+25]"/></command>
+                
+            </elseif>
+		  </if>	
+		  
+		  <else>
+			<if spell = "choral*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x53\xFD (Lucky: 2 / Unlucky: 6) ~ Spell Interupt  - ~ Pt Member Bonus: BRD"/></command>
+                
+            </if>
+            <elseif spell = "samurai*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x55\xFD (Lucky: 2 [+32] / Unlucky: 6 [+4]) ~ Store TP + ~Pt Member Bonus: SAM [+10]"/></command>
+                
+            </elseif>
+            <elseif spell = "scholar*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\xB8\xFD (Lucky: 2 / Unlucky: 6) ~ Conserve Mp + ~ Pt Member Bonus: SCH"/></command>
+                
+            </elseif>
+            <elseif spell = "magus*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x59\xFD (Lucky: 2 [+20] / Unlucky: 6 [+3]) ~ M. Def + ~ Pt Member Bonus: BLU [+8]"/></command>
+                
+            </elseif>
+            <elseif spell = "healer*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4C\xFD (Lucky: 3 [+10] / Unlucky: 7 [+1]) ~ Hmp + ~ Pt Member Bonus: WHM [+3]"/></command>
+                
+            </elseif>
+            <elseif spell = "monk*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4B\xFD (Lucky: 3 [+32] / Unlucky: 7 [+4]) ~ Subtle Blow + ~ Pt Member Bonus: MNK [+10]"/></command>
+                
+            </elseif>
+            <elseif spell = "drachen*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x57\xFD (Lucky: 3 [+9] / Unlucky: 7 [+1]) ~ Pet: M. Atk &amp; M. Acc + ~ Pt Member Bonus: DRG [+4]"/></command>
+                
+            </elseif>
+            <elseif spell = "gallant*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x50\xFD (Lucky: 3 [+24%] / Unlucky: 7 [+3%]) ~ Dmg Reflection ~ Pt Member Bonus: PLD [+10%]"/></command>
+                
+            </elseif>
+            <elseif spell = "dancer*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\xB7\xFD (Lucky: 3 [11 hp/tick] / Unlucky: 7 [1 hp/tick]) ~ HP Regen ~ Pt Member Bonus: DNC [+3 hp/tick]"/></command>
+                
+            </elseif>
+            <elseif spell = "ninja*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x56\xFD (Lucky: 4 / Unlucky: 8) ~ Eva + ~ Pt Member Bonus: NIN"/></command>
+                
+            </elseif>
+            <elseif spell = "hunter*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x54\xFD (Lucky: 4 [+40] / Unlucky: 8 [+5]) ~ Acc &amp; R. Acc + ~ Pt Member Bonus: RNG [+15]"/></command>
+                
+            </elseif>
+            <elseif spell = "chaos*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x51\xFD (Lucky: 4 [+25%] / Unlucky: 8 [+3%])  ~ Atk + ~ Pt Member Bonus: DRK [+10%]"/></command>
+                
+            </elseif>
+            <elseif spell = "puppet*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x5B\xFD (Lucky: 4 / Unlucky: 8) ~ Pet: Acc &amp; R. Acc + ~ Pt Member Bonus: PUP"/></command>
+                
+            </elseif>
+            <elseif spell = "beast*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x52\xFD (Lucky: 4 / Unlucky: 8) ~ Pet: Atk &amp; R. Atk + ~ Pt Member Bonus: BST"/></command>
+                
+            </elseif>
+            <elseif spell = "warlock*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4E\xFD (Lucky: 4 / Unlucky: 8) ~ M. Acc + ~ Pt Member Bonus: RDM"/></command>
+                
+            </elseif>
+            <elseif spell = "corsair*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x5A\xFD (Lucky: 5 [+20%] / Unlucky: 9 [+8%]) ~ Exp +"/></command>
+                
+            </elseif>
+            <elseif spell = "evoker*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x58\xFD (Lucky: 5 [+3] / Unlucky: 9 [+1]) ~ Refresh ~ Pt Member Bonus: SMN [+1]"/></command>
+                
+            </elseif>
+            <elseif spell = "rogue*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4F\xFD (Lucky: 5 [+12%] / Unlucky: 9 [+1%]) ~ Crit. Hit + ~ Pt Member Bonus: THF [+6%]"/></command>
+                
+            </elseif>
+            <elseif spell = "fighter*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4A\xFD (Lucky: 5 [+12%] / Unlucky: 9 [+1%]) ~ Dbl. Atk + ~ Pt Member Bonus: WAR [+6%]"/></command>
+                
+            </elseif>
+            <elseif spell = "wizard*">
+                <command when = "Precast">input /echo \xFD\x02\x02\x1F\x4D\xFD (Lucky: 5 [+10] / Unlucky: 9 [+1]) ~ M. Atk + ~ Pt Member Bonus: BLM [+3]"/></command>
+                
+            </elseif>
+			<elseif spell = "bolter*">
+                <command when = "Precast">input /echo Bolter's Roll (Lucky: 3 [+12%] / Unlucky: 9 [+5%]) ~ Movement Speed + ~ 11 [+25%]"/></command>
+                
+            </elseif>
+			<elseif spell = "blitzer*">
+                <command when = "Precast">input /echo Blitzer's Roll (Lucky: 4 [+11.3%] / Unlucky: 9 [+1.5%]) Haste ~ 11 [+12.1%]"/></command>
+                
+            </elseif>
+			<elseif spell = "tactician*">
+                <command when = "Precast">input /echo Tactician's Roll (Lucky: 5 [+3] / Unlucky: 8 [+0]) Regain  ~ 11 [+4]"/></command>
+                
+            </elseif>
+			<elseif spell = "Caster*">
+                <command when = "Precast">input /echo Caster's Roll (Lucky: 2 [+18%] / Unlucky: 7 [+5%]) Fast Cast  ~ 11 [+20%]"/></command>
+                
+            </elseif>
+			<elseif spell = "Courser*">
+                <command when = "Precast">input /echo Courser's Roll (Lucky: 4 [] / Unlucky: 9 []) Snapshot  ~ 11 []"/></command>
+                
+            </elseif>
+			<elseif spell = "Allies*">
+                <command when = "Precast">input /echo Allies' Roll (Lucky: 3 [+17%] / Unlucky: 10 [+5%]) WS damage/acc  ~ 11 [+17%]"/></command>
+                
+            </elseif>
+			<elseif spell = "Miser*">
+                <command when = "Precast">input /echo Miser's Roll (Lucky: 5 [+20] / Unlucky: 7 [+2]) Save TP  ~ 11 [+25]"/></command>
+                
+            </elseif>
+		  </else>
+        </If>
+ 
+ 
+<!-- 0000000000000000000000000000000000000000000000000000000 -->
+
+ 
+<!-- Quickdraw Rules -->
+	<if type = "Quick Draw">	
+        <if Spell = "Fire Shot">
+            <command when = "midcast">input /echo \xFD\x02\x02\x1F\x5C\xFD >>> %SpellTarget</command>
+        </if>
+        <elseif Spell = "Ice Shot">
+            <command when = "midcast">input /echo \xFD\x02\x02\x1F\x5D\xFD  >>> %SpellTarget</command>
+        </elseif>
+        <elseif Spell = "Wind Shot">
+            <command when = "midcast">input /echo \xFD\x02\x02\x1F\x5E\xFD  >>> %SpellTarget</command>
+        </elseif>
+        <elseif Spell = "Earth Shot">
+            <command when = "midcast">input /echo 	\xFD\x02\x02\x1F\x5F\xF  >>> %SpellTarget</command>
+        </elseif>
+        <elseif Spell = "Thunder Shot">
+            <command when = "midcast">input /echo \xFD\x02\x02\x1F\x60\xFD  >>> %SpellTarget</command>
+        </elseif>
+        <elseif Spell = "Water Shot">
+            <command when = "midcast">input /echo \xFD\x02\x02\x1F\x61\xFD  >>> %SpellTarget</command>
+        </elseif>
+        <elseif Spell = "Light Shot">
+            <command when = "midcast">input /echo \xFD\x02\x02\x1F\x62\xFD ( \xFD\x02\x02\x1B\x64\xFD )   >>> %SpellTarget</command>
+        </elseif>
+        <elseif Spell = "Dark Shot">
+            <command when = "midcast">input /echo \xFD\x02\x02\x1F\x63\xFD ( \xFD\x02\x02\x1B\x6F\xFD ) >>> %SpellTarget</command>
+        </elseif>
+	</if>
+
+
+
+</rules>
+</spellcast>

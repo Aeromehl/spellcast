@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+<spellcast>
+	<config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+	
+	
+	<!-- SETS SECTION -->
+	<sets>
+
+<!-- Pure Tank Set-->		
+		<group name="BST" default="yes">
+	
+		
+			<set name="Main"><!-- DD+/ACC+ -->
+				<main>Magnus Axe</main>
+				<sub>Kabrakan's Axe</sub>
+				<ammo>Tiphia Sting</ammo>
+				<head>Ryoshi Hachimaki</head>
+				<neck>Spectacles</neck>
+				<lear>Assault Earring</lear>
+				<rear></rear>
+				<body>Hauberk +1</body>
+				<hands>Akinji Bazubands</hands>
+				<lring>Sniper's Ring</lring>
+				<rring>Woodsman Ring</rring>
+				<back></back>
+				<waist>Headlong Belt</waist>
+				<legs>Ferine Quijotes +2</legs>
+				<feet>Perle Solerets</feet>
+				
+			</set>
+			
+			<set name="Idle">
+				<main>Magnus Axe</main>
+				<sub>Kabrakan's Axe</sub>
+				<ammo>Tiphia Sting</ammo>
+				<head>Panther Mask</head>
+				<neck>Spectacles</neck>
+				<lear>Assault Earring</lear>
+				<rear></rear>
+				<body>Hauberk +1</body>
+				<hands>Akinji Bazubands</hands>
+				<lring>Sniper's Ring</lring>
+				<rring>Woodsman Ring</rring>
+				<back></back>
+				<waist>Headlong Belt</waist>
+				<legs>Ferine Quijotes +2</legs>
+				<feet>Perle Solerets</feet>
+			</set>
+
+			
+			<set name="Jug">
+				<hands>Monster Gloves</hands>
+			</set>
+						
+			
+			<set name="WS"><!-- STR+ -->
+				<main>Magnus Axe</main>
+				<sub>Kabrakan's Axe</sub>
+				<ammo>Tiphia Sting</ammo>
+				<head>Panther Mask</head>
+				<neck>Spectacles</neck>
+				<lear>Assault Earring</lear>
+				<rear></rear>
+				<body>Hauberk +1</body>
+				<hands>Akinji Bazubands</hands>
+				<lring>Sniper's Ring</lring>
+				<rring>Woodsman Ring</rring>
+				<back></back>
+				<waist>Headlong Belt</waist>
+				<legs>Perle Brayettes</legs>
+				<feet>Marine F Boots</feet>
+			</set>
+			
+						
+						
+			<set name="Reward"><!-- Reward/MND+ -->
+				<main>Zoraal Ja's Axe</main>
+				<sub>Zoraal Ja's Axe</sub>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands>Ogre Gloves</hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>
+
+			
+		</group>				
+	
+		
+<!-- MISC GEAR-->		
+		<group name="MISC" default="no">
+	
+		
+			<set name="MISC"><!-- Other things to take w/me -->
+				<item>Linkpearl</item>
+				<item>Cl. Wheat Broth</item>
+				<item>Cl. Wheat Broth</item>
+				<item>Cl. Wheat Broth</item>
+				<item>Lucky Broth</item>
+				<item>Lucky Broth</item>
+				<item>Lucky Broth</item>
+				<item>Instant Warp</item>
+				<item>Instant Reraise</item>
+				<item>Reraise Earring</item>
+				<item></item>
+				<item>Pet Poultice</item>
+				<item>Pet Food Zeta</item>
+				<item>Pet Food Zeta</item>
+				<item>Pet Food Zeta</item>
+				<item>Pet Food Zeta</item>
+				<item>Pet Food Zeta</item>
+				<item>Pet Food Zeta</item>
+				<item>Pet Food Zeta</item>
+				<item>Pet Food Zeta</item>
+				<item>Pet Food Zeta</item>
+				<item>Pet Food Theta</item>
+				<item>Pet Food Theta</item>
+				<item>Sanjaku-Tenugui</item>
+				<item>Sanjaku-Tenugui</item>
+				<item>Shinobi-Tabi</item>
+				<item>Shinobi-Tabi</item>
+				<item>Shihei</item>
+				<item>Toolbag (Shihe)</item>
+				<item>Silent Oil</item>
+				<item>Prism Powder</item>
+				<item>Zoraal Ja's Axe</item>
+				<item>Zoraal Ja's Axe</item>
+				<item>Maneater</item>
+				<item>Magnus Axe</item>
+				<item>Perle Salade</item>
+				<item>Perle Hauberk</item>
+				<item>Perle Moufles</item>
+				<item>Perle Brayettes</item>
+				<item>Perle Solerets</item>
+				<item>Ryoshi Hachimaki</item>
+				<item>Byrnie</item>
+				<item>Scp. Harness +1</item>
+				<item>Primal Belt</item>
+				<item>Sentry Belt</item>
+				<item>Ecphoria Ring</item>
+				<item></item>
+				<item>Vermihumus</item>
+				<item>Vermihumus</item>
+				<item></item>
+				<item></item>
+				
+			</set>
+		
+				
+		</group>	
+	
+
+	</sets>
+	
+
+
+	<!-- RULES SECTION -->
+
+	<rules>
+		<if Spell="Primal Rend|Ruinator|Onslaught|Bora Axe|Mistral Axe|Raging Axe|Smash Axe|Gale Axe|Avalanche Axe|Spinning Axe|Rampage|Calamity|Slice|Dark Harvest|Nightmare Scythe|Spinning Scythe|Vorpal Scythe">
+					<action type="equip" when="precast" set="WS"/>
+					
+		</if>		
+
+		
+			
+		
+		<if spell="Call Beast">
+					<action type="equip" when="precast" set="Jug"/>
+					
+		</if>
+		
+		
+		
+		<if spell="Reward">
+					<action type="equip" when="precast" set="Reward"/>
+					
+		</if>
+		
+		
+		
+		<if spell="Fight">
+					<action type="equip" when="precast" set="Main"/>
+					<action type="equip" when="midcast" set="Main"/>
+					
+		</if>
+		
+					
+		<!-- Status Rules -->
+			<action type="equip" when="Engaged" set="Main" />
+			<action type="equip" when="Idle|Resting" set="Idle" />
+				
+	
+		<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="Main"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="Idle"/>
+			</else>	
+			
+		
+		
+		
+		<if subjob="DNC">
+			<if spell="Sneak/Invisible">
+				<cancelspell/> 
+				<cmd>input /raw /ja "Spectral Jig" &lt;me&gt;;</cmd>
+			</if>
+		</if>
+		
+		<if spell="Jettatura|Fantod"> 
+        <cancelspell/> 
+        <cmd>input /raw /pet "%spell" &lt;me&gt;;</cmd> 
+		</if>
+
+		
+	
+	</rules>
+</spellcast>

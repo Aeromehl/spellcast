@@ -1,0 +1,29 @@
+<spellcast>
+  <sets>
+    <group name="exported">
+      <set name="exported">
+        <head>Uk'uxkaj Cap</head>
+        <hands>Shned. Gloves +1</hands>
+        <sub>Rose Strap</sub>
+        <legs>Abyss Flanchard</legs>
+        <head>Ejekamal Mask</head>
+        <range>Ajjub Bow</range>
+        <item>Hi-Reraiser</item>
+        <item>Super Reraiser</item>
+        <body>Iuitl Vest +1</body>
+        <waist>Impulse Belt</waist>
+        <left_ring>Longshot Ring</left_ring>
+        <back>Buquwik Cape</back>
+        <range>Armageddon</range>
+        <left_ring>Fistmele Ring</left_ring>
+        <hands>Iuitl Wristbands</hands>
+        <back>Kayapa Cape</back>
+        <back>Libeccio Mantle</back>
+        <range>Falubeza</range>
+        <item>Pearlsack</item>
+        <left_ring>Beeline Ring</left_ring>
+        <item>Gil</item>
+      </set>
+    </group>
+  </sets>
+</spellcast>

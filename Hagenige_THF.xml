@@ -1,0 +1,200 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<Variables>
+	
+</Variables>	
+	
+<sets>
+	<group name="THFTH" default="yes">			
+			<set name="THFIdle">
+				<main lock="true" />
+                <sub lock="true" />
+                <ranged lock="true" />
+                <ammo lock="true" />
+				<item>Heartseeker Earring</item>
+				<item>Dudgeon Earring</item>
+                <head>Oce. Headpiece +1</head>
+                <neck>Wiglen Gorget</neck>
+                <lear>Steelflash Earring</lear>
+                <rear>Bladeborn Earring</rear>
+                <body>Thaumas Coat</body>
+                <hands>Plunderer's Armlets +1</hands>
+				<item>Plun. Armlets</item>
+                <lring>Paguroidea Ring</lring>
+                <rring>Sheltered ring</rring>
+                <back>Atheling Mantle</back>
+                <waist>Windbuffet Belt</waist>
+                <legs>Ocelot Trousers</legs>
+                <feet>Fajin Boots</feet>
+				<item>Uk'uxkaj Cap</item>
+				<item>Kaabnax Trousers</item>
+				<item>Raider's Boomerang</item>
+				<item>Plun. Armlets</item>
+				<item>Plunderer's Armlets +1</item>
+				<item>Qaaxo Harness</item>
+				<item>Qaaxo Mitaines</item>
+				<item>Whirlpool Mask</item>
+				<item>Ighwa Trousers</item>
+				<item>Asperity Necklace</item>
+				<item>Izhiikoh</item>
+				<item>Atoyac</item>
+				<item>Sandung</item>
+				<item>Twilight Torque</item>
+				<item>Yacuruna Ring</item>
+				<item>Minerva's Ring</item>
+				<item></item>
+				<item></item>
+				<item></item>
+			</set>
+				
+			<set name="THFTP">
+				<range>Raider's Bmrng.</range>
+				<head>Iuitl Headgear</head>
+                <neck>Houyi's Gorget</neck>
+                <lear>Steelflash Earring</lear>
+                <rear>Bladeborn Earring</rear>
+                <body>Thaumas Coat</body>
+                <hands>Asn. Armlets +2</hands>
+                <lring>Epona's Ring</lring>
+                <rring>Rajas ring</rring>
+                <back>Atheling Mantle</back>
+                <waist>Twilight Belt</waist>
+                <legs>Ocelot Trousers</legs>
+                <feet>Raid. Poulaines +2</feet>
+			</set>
+			
+			<set name="THFWS">
+				<head>Oce. Headpiece +1</head>
+                <neck>Asperity Necklace</neck>
+                <lear>Thunder Pearl</lear>
+                <rear>Thunder Pearl</rear>
+                <body>Espial Gambison</body>
+                <hands>Shneddick Gloves</hands>
+                <lring>Ramuh Ring +1</lring>
+                <rring>Rajas ring</rring>
+                <back>Forager's Mantle</back>
+                <waist>Pipilaka Belt</waist>
+                <legs>Raid. Culottes +1</legs>
+                <feet>Shneddick Boots</feet>
+			</set>
+			
+			<set name="THFagiWS">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head>Oce. Headpiece +1</head>
+				<neck>Houyi's Gorget</neck>
+				<lear></lear>
+				<rear></rear>
+				<body>Espial Gambison</body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist>Scouter's Rope</waist>
+				<legs></legs>
+				<feet>Shneddick Boots</feet>
+			</set>
+			
+			<set name="THFSteal">
+				<head>Rogue's Bonnet</head>
+                <neck></neck>
+                <lear></lear>
+                <rear></rear>
+                <body></body>
+                <hands>Rogue's Armlets</hands>
+                <lring></lring>
+                <rring></rring>
+                <back></back>
+                <waist>Key Ring Belt</waist>
+                <legs>Rogue's Culottes</legs>
+                <feet>Raid. Poulaines +2</feet>
+			</set>
+			
+			<set name="THFwaltz">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring>Asklepian Ring</lring>
+				<rring>Valseur's Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+
+			<set name="MISC">
+				<item>Thief's Knife</item>
+				<item>Eminent Dagger</item>
+				<item>Instant Warp</item>
+				<item>Silent Oil</item>
+				<item>Prism Powder</item>
+				<item></item>
+				<item>Toolbag (Shihe)</item>
+				<item>Toolbag (Shihe)</item>
+				<item>Sanjaku-Tenugui</item>
+				<item>Shinobi-Tabi</item>
+				<item>Shihei</item>
+				<item>Thaumas Coat</item>
+			</set>	
+	</group>
+	
+	
+
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Resting" set="THFIdle"/>
+				<action type="equip" when="Engaged" set="THFTP"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="THFTP"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="THFIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			<if commandprefix="/ws|/weaponskill">
+				<if spell="Exenterator">
+					<action type="equip" when="Precast" Set="THFagiWS" />
+				</if>	
+				<else>
+					<action type="equip" when="Precast" Set="THFWS" /> 
+				</else>	
+			</if>
+			
+	<!-- Spell Rules -->	
+			<if spell="Steal">
+				<action type="equip" when="Precast" set="THFSteal"/>
+			</if>
+		
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+			
+			<if spell="*Waltz|* Waltz">
+				<action type="equip" when="Precast" set="THFwaltz"/>
+			</if>
+
+</rules>
+</spellcast>

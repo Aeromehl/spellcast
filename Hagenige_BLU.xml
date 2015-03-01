@@ -1,0 +1,89 @@
+<spellcast>
+  <sets>
+    <group name="exported">
+      <set name="exported">
+        <left_ring>Warp Ring</left_ring>
+        <item>Ace of Coins</item>
+        <hands>Serpentes Cuffs</hands>
+		<item>Veneficium Ring</item>
+        <sub>Tamaxchi</sub>
+        <item>Hi-Reraiser</item>
+		<item>Cho'j Band</item>
+        <left_ring>Enlivened Ring</left_ring>
+        <ammo>Impatiens</ammo>
+        <left_ring>Oneiros Annulet</left_ring>
+        <range>Halakaala</range>
+        <head>Hagondes Hat</head>
+        <item>Pearlsack</item>
+        <hands>Hagondes Cuffs</hands>
+		<item>Aptitude Mantle +1</item>
+		<item>Capacity Ring</item>
+        <neck>Atzintli Necklace</neck>
+		<item>Sheltered Ring</item>
+		<item>Rajas Ring</item>
+        <waist>Chuq'aba Belt</waist>
+        <legs>Kaabnax Trousers</legs>
+        <feet>Serpentes Sabots</feet>
+        <item>Kohlrouladen +1</item>
+        <feet>Hagondes Sabots</feet>
+        <back>Oretania's Cape</back>
+        <left_ear>Hecate's Earring</left_ear>
+        <waist>Flume Belt</waist>
+        <item>Shining Cloth</item>
+        <left_ring>Sangoma Ring</left_ring>
+        <left_ring>Strendu Ring</left_ring>
+        <left_ear>Friomisi Earring</left_ear>
+        <neck>Eddy Necklace</neck>
+        <body>Hagondes Coat +1</body>
+        <waist>Witful Belt</waist>
+        <waist>Isa Belt</waist>
+        <item>T. Tama-hagane</item>
+        <legs>Hagondes Pants</legs>
+        <sub>Iztaasu +2</sub>
+        <back>Buquwik Cape</back>
+        <left_ear>Sortiarius Earring</left_ear>
+		<item>Mavi Mintan +2</item>
+		<item>Mavi Bazubands +1</item>
+        <feet>Weath. Souliers +1</feet>
+        <hands>Umuthi Gloves</hands>
+        <sub>Xiutleato</sub>
+        <back>Kayapa Cape</back>
+        <left_ring>Cho'j Band</left_ring>
+        <back>Ogapepo Cape</back>
+        <left_ear>Dudgeon Earring</left_ear>
+        <sub>Genbu's Shield</sub>
+        <left_ear>Heartseeker Earring</left_ear>
+        <back>Kumbira Cape</back>
+        <left_ear>Psystorm Earring</left_ear>
+        <left_ring>Angha Ring</left_ring>
+        <left_ear>Lifestorm Earring</left_ear>
+        <back>Cornflower Cape</back>
+        <body>Iuitl Vest +1</body>
+        <neck>Wiglen Gorget</neck>
+        <item>Pterygotus</item>
+        <item>Goldfish Bowl</item>
+        <ammo>Jukukik Feather</ammo>
+        <head>Uk'uxkaj Cap</head>
+        <legs>Iuitl Tights</legs>
+        <left_ring>Acumen Ring</left_ring>
+        <hands>Magus Bazubands</hands>
+        <item>Gil</item>
+		<item>Mimesis</item>
+		<item>Instant Reraise</item>
+		<item>Reraise Earring</item>
+		<item>Hi-Reraiser</item>
+		<item>Reraiser</item>
+		<item>Super Reraiser</item>
+		<item>Mavi Tayt +2</item>
+		<item>Luhlaza Keffiyeh +1</item>
+		<item>Luh. Keffiyeh +1</item>
+		<item>Luhlaza Jubbah +1</item>
+		<item>Luh. Bazubands  +1</item>
+		<item>Luhlaza Shalwar +1</item>
+		<item>Luhlaza Charuqs +1</item>
+		<item>Homestead Wand</item>
+		
+      </set>
+    </group>
+  </sets>
+</spellcast>

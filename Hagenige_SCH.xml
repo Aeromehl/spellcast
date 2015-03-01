@@ -1,0 +1,490 @@
+<?xml version="1.0" ?>
+<spellcast>
+	<config	
+		RequireVersion = "2.17"
+		Debug = "False" 
+		ShowGearSwaps = "False" />
+	<sets>
+		<group name="Scholar" default="yes">
+<!-- Fast Cast Gear -->
+			<set name="Fast">
+				<ammo>Impatiens</ammo>
+				<rear>Loquac. Earring</rear>
+				<lear>Aredan Earring</lear>
+				<head>Argute M.board</head>
+				<hands>Repartie Gloves</hands>
+				<waist>Witful Belt</waist>
+				<back>Ogapepo Cape</back>
+				<feet>Scholar's Loafers</feet>
+				<neck>Stoicheion Medal</neck>
+			</set>	
+<!-- Light Arts Sets -->		
+			<set name="Lidle">
+				<main>Atinian Staff</main>
+				<sub>Light Grip</sub>
+				<head>Svnt. Bonnet +2</head>
+				<body>Orvail Robe</body>
+				<neck>Enhancing Torque</neck>
+				<lear>Aredan Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<hands>Serpentes Cuffs</hands>
+				<lring>Serket Ring</lring>
+				<rring>Bifrost Ring</rring>
+				<back>Ogapepo Cape</back>
+				<waist>Witful Belt</waist>
+				<legs>Nares Trews</legs>
+				<feet>Serpentes Sabots</feet>
+				<ammo>Impatiens</ammo>
+			</set>
+			
+			<set name="LsubBuilding" baseset="Lidle">
+				<main>Atinian Staff</main>
+				<head>Scholar's M.board</head>
+				<body>Argute Gown</body>
+				<back></back>
+			</set>
+			
+			<set name="Lcures" baseset="Lidle">
+				<main>Teiwaz</main>
+				<ammo>Impatiens</ammo>
+				<head>Argute M.board</head>
+				<neck></neck>
+				<lear>Aredan Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Orvail Robe</body>
+				<hands>Serpentes Cuffs</hands>
+				<back>Oretania's Cape</back>
+				<legs>Nares Trews</legs>
+				<feet>Serpentes Sabots</feet>
+				
+			</set>
+		<!-- finish this later -->	
+			<set name="LenfeebleMND">
+				<main>Atinian Staff</main>
+				<head>Praeco Beret</head>
+				<lear>Aredan Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands><!-- Argute Bracers -->
+				<lring>Strendu Ring</lring>
+				<rring>Irrwisch Ring</rring>
+				<back>Ogapepo Cape</back>
+				<neck></neck>
+				<ammo>Savant's Treatise</ammo>
+				<waist>Witful Belt</waist>
+				<legs>Scholar's Pants</legs>
+				<feet>Nares Clogs</feet>
+			</set>
+		<!-- finish this later -->	
+			<set name="LenfeebleINT">
+				<main>Atinian Staff</main>
+				<head>Praeco Beret</head>
+				<lear>Aredan Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands><!-- Argute Bracers -->
+				<lring>Strendu Ring</lring>
+				<rring>Irrwisch Ring</rring>
+				<back>Ogapepo Cape</back>
+				<neck></neck>
+				<ammo>Savant's Treatise</ammo>
+				<waist>Witful Belt</waist>
+				<legs>Scholar's Pants</legs>
+				<feet>Nares Clogs</feet>
+			</set>
+			
+			<set name="Lenhancing">
+				<main>Kirin's Pole</main>
+				<sub>Fulcio Grip</sub>
+				<ammo>Savant's Treatise</ammo>
+				<head>Svnt. Bonnet +2</head>
+				<neck>Enhancing Torque</neck>
+				<lear>Aredan Earring</lear>
+				<rear>Locuac. Earring</rear>
+				<body>Hyksos Robe +1</body>
+				<hands>Svnt. Bracers +2</hands>
+				<lring>Serket Ring</lring>
+				<rring>Bifrost Ring</rring>
+				<back>Swith Cape</back>
+				<waist>Cascade Belt</waist>
+				<legs>Scholar's Pants</legs>
+				<feet>Scholar's Loafers</feet>
+			</set>
+		<!-- finish this later -->	
+			<set name="Lnuke" baseset="Lidle">
+				<main>Vaoy Staff</main>
+				<sub>Elder Grip</sub>
+				<ammo>Savant's Treatise</ammo>
+				<neck>Stoicheion Medal</neck>
+				<lear>Moldavite Earring</lear>
+				<rear>Hecate's Earring</rear>
+				<body>Pharmakeia Robe</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Strendu Ring</lring>
+				<rring>Irrwisch Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Oneiros Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Nares Clogs</feet>
+			</set>
+		<!-- finish this later -->	
+			<set name="Ldark" baseset="Lidle">
+				<main>Atinian Staff</main>
+				<sub>Dark Grip</sub>
+				<ammo>Sturm's Report</ammo>
+				<body></body>
+				<hands>Repartie Gloves</hands>
+				<lring>Strendu Ring</lring>
+				<rring>Irrwisch Ring</rring>
+				<head>Appetence Crown</head>
+				<neck>Dark Torque</neck>
+				<lear>Dark Earring</lear>
+				<rear>Aredan Earring</rear>
+				<legs>Argute Pants</legs>
+				<feet>Nares Clogs</feet>
+			</set>
+<!-- Dark Arts Sets -->
+			<set name="Didle">
+				<main>Voay Staff</main>
+				<sub>Light Grip</sub>
+				<head>Svnt. Bonnet +2</head>
+				<body>Orvail Robe</body>
+				<neck>Stoicheion Medal</neck>
+				<lear>Aredan Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<hands>Serpentes Cuffs</hands>
+				<lring>Serket Ring</lring>
+				<rring>Bifrost Ring</rring>
+				<back>Ogapepo Cape</back>
+				<waist>Witful Belt</waist>
+				<legs>Nares Trews</legs>
+				<feet>Serpentes Sabots</feet>
+				<ammo>Impatiens</ammo>
+			</set>
+			
+			<set name="DsubBuilding" baseset="Didle">
+				<main>Voay Staff</main>
+				<head>Scholar's M.board</head>
+				<body>Argute Gown</body>
+				<neck></neck>
+				<hands></hands>
+				<back></back>
+				<waist></waist>
+			</set>
+									
+			<set name="DenfeebleMND">
+				<main>Atinian Staff</main>
+				<head>Praeco Beret</head>
+				<body>Scholar's Gown</body>
+				<lear>Aredan Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<hands>Repartie Gloves</hands><!-- Argute Bracers -->
+				<lring>Strendu Ring</lring>
+				<rring>Irrwisch Ring</rring>
+				<back>Ogapepo Cape</back>
+				<neck></neck>
+				<ammo>Savant's Treatise</ammo>
+				<waist>Witful Belt</waist>
+				<legs>Augur's Brais</legs>
+				<feet>Nares Clogs</feet>
+			</set>
+			
+			<set name="DenfeebleINT">
+				<main>Atinian Staff</main>
+				<head>Praeco Beret</head>
+				<body>Scholar's Gown</body>
+				<lear>Aredan Earring</lear>
+				<rear>Loquac. Earring</rear>
+				<hands>Repartie Gloves</hands><!-- Argute Bracers -->
+				<lring>Strendu Ring</lring>
+				<rring>Irrwisch Ring</rring>
+				<back>Ogapepo Cape</back>
+				<neck></neck>
+				<ammo>Savant's Treatise</ammo>
+				<waist>Witful Belt</waist>
+				<legs>Augur's Brais</legs>
+				<feet>Nares Clogs</feet>
+			</set>
+			
+			<set name="Denhancing">
+				<main>Kirin's Pole</main>
+				<sub>Fulcio Grip</sub>
+				<ammo>Savant's Treatise</ammo>
+				<head>Svnt. Bonnet +2</head>
+				<neck>Enhancing Torque</neck>
+				<lear>Aredan Earring</lear>
+				<rear>Locuac. Earring</rear>
+				<body>Hyksos Robe +1</body>
+				<hands>Svnt. Bracers +2</hands>
+				<lring>Serket Ring</lring>
+				<rring>Bifrost Ring</rring>
+				<back>Swith Cape</back>
+				<waist>Cascade Belt</waist>
+				<legs>Nares Trews</legs>
+				<feet>Scholar's Loafers</feet>
+			</set>
+			
+			<set name="Dnuke" baseset="Didle">
+				<main>Voay Staff</main>
+				<sub>Elder Grip</sub>
+				<ammo>Savant's Treatise</ammo>
+				<neck>Stoicheion Medal</neck>
+				<lear>Moldavite Earring</lear>
+				<rear>Hecate's Earring</rear>
+				<body>Pharmakeia Robe</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Strendu Ring</lring>
+				<rring>Irrwisch Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Oneiros Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Nares Clogs</feet>
+			</set>
+			
+			<set name="Ddark" baseset="Didle">
+				<main>Atinian Staff</main>
+				<sub>Dark Grip</sub>
+				<ammo>Sturm's Report</ammo>
+				<body>Scholar's Gown</body>
+				<head>Appetence Crown</head>
+				<hands>Repartie Gloves</hands>
+				<neck>Dark Torque</neck>
+				<lring>Strendu Ring</lring>
+				<rring>Irrwisch Ring</rring>
+				<lear>Dark Earring</lear>
+				<rear>Aredan Earring</rear>
+				<legs>Argute Pants</legs>
+				<feet>Nares Clogs</feet>
+			</set>
+			
+			<set name="MISC">
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item>Light Grip</item>
+				<item>Dark Grip</item>
+				<item>Thunder Grip</item>
+				<item>Ice Grip</item>
+				<item>Fire Grip</item>
+				<item>Wind Grip</item>
+				<item>Water Grip</item>
+				<item>Earth Grip</item>
+				<item></item>
+				<item>Pearlsack</item>
+				<item></item>
+				<item>Echo Drops</item>
+				<item>Echo Drops</item>
+				<item></item>
+				<item>Elder Grip</item>
+				<item></item>
+				<item>Instant Warp</item>
+				<item></item>
+				<item>Voay Staff</item>
+				<item>Aredan Earring</item>
+				<item>Teiwaz</item>
+				<item></item>
+				<item>Aredan Earring</item>
+				
+			</set>
+		</group>
+	</sets>
+	<variables clear="true">
+<!-- Elemental Grips, set to 1 for each you have -->
+		<var name="LightGrip">1</var>
+		<var name="DarkGrip">1</var>
+		<var name="ThunderGrip">1</var>
+		<var name="IceGrip">1</var>
+		<var name="FireGrip">1</var>
+		<var name="WindGrip">1</var>
+		<var name="WaterGrip">1</var>
+		<var name="EarthGrip">1</var>
+<!-- Elemental Obi's, set to 1 for the ones you have. -->
+		<var name="DarkObi">0</var>
+		<var name="LightObi">0</var>
+		<var name="ThunderObi">0</var>
+		<var name="IceObi">0</var>
+		<var name="FireObi">0</var>
+		<var name="WindObi">0</var>
+		<var name="WaterObi">0</var>
+		<var name="EarthObi">0</var>
+	</variables>
+	<rules>
+		
+<!-- Rule: Gear Based on Spell Light Arts -->
+			<if BuffActive="Light Arts|Addendum: White|">
+					
+				<if spell="Bliz*|Fre*|Aer*|Tor*|Sto*|Qua*|Thu*|Bur*|Wat*|Flo*|Fir*|Fla*|*helix">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="Lnuke" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="LsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Lidle"/>
+						</else>						
+				</if>
+				<if spell="Gravity|Bind|Blind|Poison|Sleep*">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="LenfeebleINT" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="LsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Lidle"/>
+						</else>
+				</if>
+				<if spell="Slow|Paralyze|Silence">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="LenfeebleMND" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="LsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Lidle"/>
+						</else>
+				</if>
+				<if spell="Bio*|Aspir*|Drain*|Stun">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="Ldark" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="LsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Lidle"/>
+						</else>
+				</if>
+				<if spell="Cure*|Cura*|Regen*|Raise*|Reraise*">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="Lcures" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="LsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Lidle"/>
+						</else>
+				</if>
+				<if Skill="EnhancingMagic|Reraise*|Raise*|Embrava">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="Lenhancing" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="LsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Lidle"/>
+						</else>
+				</if>
+			</if>
+		
+<!-- Rule: Gear Based on Spell Dark Arts -->
+			<if BuffActive="Dark Arts|Addendum: Black">
+					
+				<if spell="Bliz*|Fre*|Aer*|Tor*|Sto*|Qua*|Thu*|Bur*|Wat*|Flo*|Fir*|Fla*|*helix">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="Dnuke" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="DsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Didle"/>
+						</else>
+				</if>
+				<if spell="Gravity|Bind|Blind|Poison|Sleep*">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="DenfeebleINT" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="DsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Didle"/>
+						</else>
+				</if>
+				<if spell="Slow|Paralyze|Silence">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="DenfeebleMND" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="DsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Didle"/>
+						</else>
+				</if>
+				<if spell="Bio*|Aspir*|Drain*|Stun|Kaustra">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="Ddark" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="DsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Didle"/>
+						</else>
+				</if>
+				<if spell="Cure*|Cura*|Regen*|Raise*|Reraise*">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="Fast" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="DsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Didle"/>
+						</else>
+				</if>
+				<if Skill="EnhancingMagic|Reraise*|Raise*">
+					<action type="equip" when="precast" set="Fast"/>
+					<action type="equip" when="midcast" set="Denhancing" />
+						<if BuffActive="Sublimation: Activated">
+							<action type="equip" when="aftercast" set="DsubBuilding"/>
+						</if>
+						<else>
+							<action type="equip" when="aftercast" set="Didle"/>
+						</else>
+				</if>
+			</if>
+			
+<!-- Rule: Staff/Obi/Grip/Boots based on Spell Name or Skill -->
+			<if Advanced='("%SpellElement" = "%WeatherElement" OR "%SpellElement" = "%DayElement") AND "$%SpellElementObi" = "1"'>
+				<if     Element="Dark"><action type="equip" when="midcast"><sub lock="yes">Dark Grip</sub></action></if>
+				<elseif Element="Light"><action type="equip" when="midcast"><sub lock="yes">Light Grip</sub></action></elseif>
+				<elseif Element="Thunder"><action type="equip" when="midcast"><sub lock="yes">Thunder Grip</sub></action></elseif>
+				<elseif Element="Ice"><action type="equip" when="midcast"><sub lock="yes">Ice Grip</sub></action></elseif>
+				<elseif Element="Fire"><action type="equip" when="midcast"><sub lock="yes">Fire Grip</sub></action></elseif>
+				<elseif Element="Wind"><action type="equip" when="midcast"><sub lock="yes">Wind Grip</sub></action></elseif>
+				<elseif Element="Water"><action type="equip" when="midcast"><sub lock="yes">Water Grip</sub></action></elseif>
+				<elseif Element="Earth"><action type="equip" when="midcast"><sub lock="yes">Earth Grip</sub></action></elseif>
+			</if>
+			
+			
+<!-- Rule: Equip Desert Boots if Sandstorm is Active -->
+		  <if mode="or" BuffActive="Sandstorm" Spell="Sandstorm">
+			<action type="equip" when="AfterCast">
+				<feet>Desert Boots</feet>
+			</action>
+		  </if>
+			
+		<if Advanced='"$%SpellElementGrip" == "1"'>
+			<action type="equip" when="midcast">
+				<sub lock="true">%SpellElement Grip</sub>
+			</action>
+		</if>	
+			
+<!-- auto cancel sneak/utsu/stoneskin/blink when recasting them. Requires Cancel Plugin -->
+			<if Spell="Sneak" BuffActive="Sneak" SpellTargetType="Self">
+				<action type="command" when="midcast">cancel 71</action>
+				<action type="midcastdelay" delay="1.8" />
+			</if>
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+			<elseif Spell="Stoneskin" BuffActive="Stoneskin">
+				<action type="command" when="midcast">cancel 37</action>
+				<action type="midcastdelay" delay="4.8" />
+			</elseif>
+			<elseif Spell="Blink" BuffActive="Blink">
+				<action type="command" when="midcast">cancel 36</action>
+				<action type="midcastdelay" delay="4.5" />
+			</elseif>
+	
+			
+	</rules>
+</spellcast>

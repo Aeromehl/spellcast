@@ -1,0 +1,75 @@
+<spellcast>
+  <sets>
+    <group name="exported">
+      <set name="exported">
+        <left_ring>Evoker's Ring</left_ring>
+        <waist>Siegel Sash</waist>
+        <legs>Nares Trews</legs>
+        <waist>Mujin Obi</waist>
+        <feet>Serpentes Sabots</feet>
+        <waist>Witful Belt</waist>
+        <back>Tiresias' Cape</back>
+        <item>Yggdreant Bole</item>
+        <item>Hahava's Mail</item>
+        <body>Facio Bliaut</body>
+        <main>Eminent Pole</main>
+        <sub>Bolelabunga</sub>
+        <item>Pearlsack</item>
+        <feet>Hagondes Sabots</feet>
+        <sub>Tamaxchi</sub>
+        <hands>Serpentes Cuffs</hands>
+        <left_ring>Fervor Ring</left_ring>
+        <main>Soulscourge</main>
+        <waist>Moepapa Stone</waist>
+        <back>Samanisi Cape</back>
+        <head>Karura Hachigane</head>
+        <sub>Vox Grip</sub>
+        <back>Ogapepo Cape</back>
+        <body>Hagondes Coat +1</body>
+        <ammo>Impatiens</ammo>
+        <head>Caller's Horn +2</head>
+        <head>Haruspex Hat</head>
+        <head>Bokwus Circlet</head>
+        <back>Tempered Cape +1</back>
+        <back>Kumbira Cape</back>
+        <ammo>Eminent Sachet</ammo>
+        <body>Hagondes Coat</body>
+        <main>Gridarvor</main>
+        <left_ring>Ephedra Ring</left_ring>
+        <body>Hyksos Robe +1</body>
+        <left_ear>Gifted Earring</left_ear>
+        <body>Yinyang Robe</body>
+        <legs>Bokwus Slops</legs>
+        <body>Call. Doublet +2</body>
+        <item>Pearlsack</item>
+        <sub>Genbu's Shield</sub>
+        <item>Emperor Fish</item>
+        <feet>Con. Pigaches</feet>
+        <body>Argent Coat</body>
+        <feet>Austere Sabots</feet>
+        <neck>Wiglen Gorget</neck>
+        <hands>Call. Bracers +2</hands>
+        <head>Telchine Cap</head>
+        <waist>Isa Belt</waist>
+        <legs>Caller's Spats +2</legs>
+        <feet>Regal Pumps</feet>
+        <waist>Kuku Stone</waist>
+        <back>Pahtli Cape</back>
+        <left_ring>Veneficium Ring</left_ring>
+        <left_ring>Saida Ring</left_ring>
+        <left_ring>Saida Ring</left_ring>
+        <head>Umuthi Hat</head>
+        <hands>Repartie Gloves</hands>
+        <hands>Bokwus Gloves</hands>
+        <neck>Caller's Pendant</neck>
+        <waist>Caller's Sash</waist>
+        <left_ear>Loquac. Earring</left_ear>
+        <legs>Assid. Pants +1</legs>
+        <hands>Helios Gloves</hands>
+		<item>Swith Cape</item>
+		<item>Conveyance Cape</item>
+        <item>Gil</item>
+      </set>
+    </group>
+  </sets>
+</spellcast>

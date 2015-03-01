@@ -1,0 +1,338 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<sets>
+	<group name="DD" default="yes">	
+			<set name="MNKIdle">
+				<main>Tinhaspa</main>
+				<main>Spharai</main>
+				<ammo>Honed Tathlum</ammo>
+                <head>Oce. Headpiece +1</head>
+                <neck>Wiglen Gorget</neck>
+                <lring>Paguroidea Ring</lring>
+                <rring>Sheltered Ring</rring>
+                <body>Thaumas Coat</body>
+                <hands>Otronif Gloves</hands>
+                <lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+                <back>Atheling Mantle</back>
+                <waist>Windbuffet Belt</waist>
+                <legs>Otronif Brais +1</legs>
+                <feet>Hermes' Sandals +1</feet>
+				<neck>Twilight Torque</neck>
+				<head>Buquwik Cape</head>
+				<item>Ejekamal Mask</item>
+				<item>Vanir Battery</item>
+				<item>Jukukik Feather</item>
+				<item>Uk'uxkaj Cap</item>
+				<item>Ighwa Trousers</item>
+				<item>Heartseeker earring</item>
+				<item>Oneiros Annulet</item>
+				<item>Qaaxo Harness</item>
+				<item>Qaaxo Mitaines</item>
+				<item>Windbuffet Belt</item>
+				<item>Qaaxo Leggings</item>
+				<item>Yacuruna Ring</item>
+				<item>Beeline Ring</item>
+				<item>Anchoret's Mantle</item>
+				<item>Shadow Ring</item>
+				<item>Shadow Mantle</item>
+				<item>Cho'j Band</item>
+				<item>Terra's Staff</item>
+				<item>Mondaha Cudgel</item>
+				<item>Warp Cudgel</item>
+				<item>Merman's Earring</item>
+				<item>Engulfer Cape</item>
+				<item>Tlamiztli Collar</item>
+				<item>Tinhaspa</item>
+				<item>Warp Ring</item>
+				<item>Reraiser</item>
+				<item>Hi-Reraiser</item>
+				<item>Instant Reraise</item>
+				<item>Super Reraiser</item>
+				<item>Ramuh's Ring +1</item>
+				<item>Ramuh's Ring +1</item>
+				</set>
+			
+			<set name="MNKTP">
+			    <main>Spharai</main>
+				<ammo>Honed Tathlum</ammo>
+                <head>Anchor. Crown +1</head>
+                <neck>Asperity Necklace</neck><!-- Backlash Torque -->
+                <!--<lring>Rajas Ring</lring>-->
+				<lring>Oneiros Ring</lring>
+                <rring>Epona's Ring</rring>
+                <body>Thaumas Coat</body>
+                <hands>Otronif Gloves</hands>
+                <lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+                <back>Atheling Mantle</back>
+                <waist>Windbuffet Belt</waist>
+                <legs>Otronif Brais +1</legs>
+                <feet>Shned. Boots +1</feet>
+				<item>Shneddick Boots +1</item>
+				<item>Minerva's Ring</item>
+			</set>
+			
+			<set name="MNKchakra">
+				<main>Spharai</main>
+				<ammo>Tantra Tathlum</ammo>
+                <head>Anchor. Crown +1</head>
+                <neck>Asperity Necklace</neck><!-- Backlash Torque -->
+                <!--<lring>Rajas Ring</lring>-->
+				<lring>Dark Ring</lring>
+                <rring>Epona's Ring</rring>
+                <body>Espial Gambison</body>
+                <hands>Melee Gloves +2</hands>
+                <lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+                <back></back>
+                <waist>Pipilaka Belt</waist>
+                <legs>Otronif Brais +1</legs>
+                <feet>Shned. Boots +1</feet>
+			</set>
+						
+			<set name="MNKWS">
+				<main>Spharai</main>
+				<ammo>Tantra Tathlum</ammo>
+                <head>Anchor. Crown +1</head>
+                <neck>Asperity Necklace</neck>
+                <lring>Pyrosoul Ring</lring>
+                <rring>Pyrosoul Ring</rring>
+                <body>Espial Gambison</body>
+                <hands>Otronif Gloves</hands>
+                <lear>Flame Pearl</lear>
+				<rear>Flame Pearl</rear>
+                <back>Forager's Mantle</back>
+                <waist>Pipilaka Belt</waist>
+                <legs>Otronif Brais +1</legs>
+                <feet>Shned. Boots +1</feet>
+			</set>
+			
+			<set name="MNKFH">
+				
+				<main>Spharai</main>
+				<ammo>Tantra Tathlum</ammo>
+                <head>Anchor. Crown +1</head>
+                <neck>Light Gorget</neck>
+                <lring>Terrasoul Ring</lring>
+                <rring>Terrasoul Ring</rring>
+                <body>Espial Gambison</body>
+                <hands>Otronif Gloves</hands>
+                <lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+                <back>Iximulew Cape</back>
+                <waist>Light Belt</waist>
+                <legs>Anchorite's Hose</legs>
+                <feet>Shned. Boots +1</feet>
+			</set>
+			
+			<set name="MNKShijin">
+				<main>Spharai</main>
+				<ammo>Tantra Tathlum</ammo>
+                <head>Anchor. Crown +1</head>
+                <neck>Asperity Necklace</neck>
+                <lring>Rajas Ring</lring>
+                <rring>Ramuh Ring +1</rring>
+                <body>Espial Gambison</body>
+                <hands>Otronif Gloves</hands>
+                <lear>Thunder Pearl</lear>
+				<rear>Thunder Pearl</rear>
+                <back>Nifty Mantle</back>
+                <waist>Pipilaka Belt</waist>
+                <legs>Byakko's Haidate</legs>
+                <feet>Shned. Boots +1</feet>
+			</set>
+			
+			<set name="MNKchi">	
+				<head></head>
+               
+                <body>Espial Gambison</body>
+                <hands></hands>
+                <lear></lear>
+				<rear></rear>
+                <back></back>
+                
+			</set>			
+	</group>
+			
+	<group name="ACC" default="no">	
+			<set name="MNKIdle">
+				<main>Spharai</main>
+				<ammo>Honed Tathlum</ammo>
+                <head>Oce. Headpiece +1</head>
+                <neck>Wiglen Gorget</neck>
+                <lring>Paguroidea Ring</lring>
+                <rring>Sheltered Ring</rring>
+                <body>Thaumas Coat</body>
+                <hands>Otronif Gloves</hands>
+                <lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+                <back>Atheling Mantle</back>
+                <waist>Anguinus Belt</waist>
+                <legs>Otronif Brais +1</legs>
+                <feet>Shned. Boots +1</feet>
+			</set>
+			
+			<set name="MNKTP">
+				<ammo>Honed Tathlum</ammo>
+                <head>Tokon Hachimaki</head>
+                <neck>Peacock Charm</neck><!-- Backlash Torque -->
+                <!--<lring>Rajas Ring</lring>-->
+				<lring>Enlivened Ring</lring>
+                <rring>Epona's Ring</rring>
+                <body>Thaumas Coat</body>
+                <hands>Mel. Gloves +2</hands>
+                <lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+                <back>Atheling Mantle</back>
+                <waist>Anguinus Belt</waist>
+                <legs>Otronif Brais +1</legs>
+                <feet>Shned. Boots +1</feet>
+			</set>
+			
+			<set name="MNKchakra">
+				<ammo>Tantra Tathlum</ammo>
+                <head>Anchor. Crown +1</head>
+                <neck></neck><!-- Backlash Torque -->
+                <!--<lring>Rajas Ring</lring>-->
+				<lring></lring>
+                <rring>Epona's Ring</rring>
+                <body>Espial Gambison</body>
+                <hands>Melee Gloves +2</hands>
+                <lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+                <back></back>
+                <waist>Pipilaka Belt</waist>
+                <legs>Otronif Brais +1</legs>
+                <feet>Shned. Boots +1</feet>
+			</set>
+			
+			<set name="MNKWS">
+				<ammo>Honed Tathlum</ammo>
+                <head>Anchor. Crown +1</head>
+                <neck>Asperity Necklace</neck>
+                <lring>Pyrosoul Ring</lring>
+                <rring>Pyrosoul Ring</rring>
+                <body>Espial Gambison</body>
+                <hands>Otronif Gloves</hands>
+                <lear>Flame Pearl</lear>
+				<rear>Flame Pearl</rear>
+                <back>Forager's Mantle</back>
+                <waist>Pipilaka Belt</waist>
+                <legs>Byakko's Haidate</legs>
+                <feet>Shned. Boots +1</feet>
+			</set>
+			
+			<set name="MNKFH">
+				<ammo></ammo>
+                <head></head>
+                <neck></neck>
+                <lring></lring>
+                <rring></rring>
+                <body></body>
+                <hands></hands>
+                <lear></lear>
+				<rear></rear>
+                <back></back>
+                <waist></waist>
+                <legs></legs>
+                <feet></feet>
+			</set>
+			
+			<set name="MNKShijin">
+				<ammo>Honed Tathlum</ammo>
+                <head>Anchor. Crown +1</head>
+                <neck>Asperity Necklace</neck>
+                <lring>Rajas Ring</lring>
+                <rring>Ramuh Ring +1</rring>
+                <body>Espial Gambison</body>
+                <hands>Otronif Gloves</hands>
+                <lear>Thunder Pearl</lear>
+				<rear>Thunder Pearl</rear>
+                <back>Nifty Mantle</back>
+                <waist>Pipilaka Belt</waist>
+                <legs>Byakko's Haidate</legs>
+                <feet>Shned. Boots +1</feet>
+			</set>
+			
+			<set name="MNKchi">
+				<head></head>
+                
+                <body>Espial Gambison</body>
+                <hands></hands>
+                <lear></lear>
+				<rear></rear>
+              
+			</set>
+
+			<set name="MNKmisc">
+				
+				<item>Instant Reraise</item>
+				<item>Thaumas Coat</item>
+				<item>Bream Sushi</item>
+				<item>Icarus Wing</item>
+				<item>Red Curry Bun</item>
+				<item>Marinara Slice</item>
+				<item></item>
+				<item></item>
+				<item>Halakaala</item>
+			</set>	
+	</group>
+	
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Resting" set="MNKIdle"/>
+				<action type="equip" when="Engaged" set="MNKTP"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="MNKTP"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="MNKIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			<if commandprefix="/ws|/weaponskill">
+				<if spell="Shijin Spiral">
+					<action type="equip" when="Precast" Set="MNKShijin" />
+				</if>	
+				<if spell="Final Heaven">
+					<action type="equip" when="Precast" Set="MNKFH" />
+				</if>
+				<else>
+					<action type="equip" when="Precast" Set="MNKWS" /> 
+				</else>	
+			</if>
+	<!-- Spell Rules -->	
+			<if spell="Chi*|Chi *">
+				<action type="equip" when="Precast" set="MNKchi"/>
+			</if>
+	
+			<if spell="Chakra">
+				<action type="equip" when="Precast" set="MNKchakra"/>
+			</if>
+	
+	<!-- Inch > Shijin -->
+			<if Spell="One Inch Punch">
+							<action Type="ChangeSpell" Spell="Shijin Spiral"/>
+			</if>
+	
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+
+
+</rules>
+</spellcast>

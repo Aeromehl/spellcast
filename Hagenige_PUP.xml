@@ -1,0 +1,223 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<Variables>
+	
+</Variables>	
+	
+<sets>
+	<group name="DD" default="yes">	
+			<set name="PUPIdle">
+				<main>Ohtas</main>
+				<range>Divinator</range>
+				<ammo>Automat. Oil +3</ammo>
+				<head>Pitre Taj +1</head>
+				<neck>Wiglen Gorget</neck>
+				<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+				<body>Thaumas Coat</body>
+				<hands>Otronif Gloves</hands>
+				<lring>Sheltered Ring</lring>
+				<rring>Paguroidea Ring</rring>
+				<item>Capacity Ring</item>
+				<back>Contriver's Cape</back>
+				<waist>Windbuffet Belt</waist>
+				<legs>Kaabnax Trousers</legs>
+				<feet>Otronif Boots</feet>
+				<item>Tinhaspa</item>
+				<item>Aptitude Mantle</item>
+				<item>Oneiros Annulet</item>
+				<item>Foire Bab. +1</item>
+			</set>
+			
+			<set name="PUPTP">
+				<head>Pitre Taj +1</head>
+				<neck>Asperity Necklace</neck>
+				<lear>Steelflash Earring</lear>
+				<rear>Bladeborn Earring</rear>
+				<body>Thaumas Coat</body>
+				<hands>Otronif Gloves</hands>
+				<lring>Epona's Ring</lring>
+				<rring>Enlivened Ring</rring>
+				<back>Dispersal Mantle</back>
+				<waist>Windbuffet Belt</waist>
+				<legs>Kaabnax Trousers</legs>
+				<feet>Otronif Boots</feet>
+				<range>Em. Animator</range>
+			</set>
+			
+			<set name="WS">
+				<head>Pitre Taj +1</head>
+				<neck>Asperity Necklace</neck>
+				<lear>Flame Pearl</lear>
+				<rear>Flame Pearl</rear>
+				<body>Espial Gambison</body>
+				<hands>Otronif Gloves</hands>
+				<lring>Pyrosoul Ring</lring>
+				<rring>Pyrosoul Ring</rring>
+				<back>Dispersal Mantle</back>
+				<waist>Pipilaka Belt</waist>
+				<legs>Otronif Brais +1</legs>
+				<feet>Otronif Boots</feet>
+				<range>Em. Animator</range>
+			</set>
+			
+			<set name="Shijin">
+				<head>Pitre Taj +1</head>
+				<neck>Asperity Torque</neck>
+				<lear>Thunder Pearl</lear>
+				<rear>Thunder Pearl</rear>
+				<body>Cirque Farsetto +2</body>
+				<hands>Otronif Gloves</hands>
+				<lring>Ramuh Ring +1</lring>
+				<rring>Rajas Ring</rring>
+				<back>Dispersal Mantle</back>
+				<waist>Pipilaka Belt</waist>
+				<legs>Otronif Brais +1</legs>
+				<feet>Otronif Boots</feet>
+				<range>Em. Animator</range>
+			</set>
+			
+			<set name="PUPmanu">
+				<head></head>
+				<neck>Buffoon's Collar</neck>
+				<lear></lear>
+				<rear></rear>
+				<body>Cirque Farsetto +2</body>
+				<hands>Pup. Dastanas</hands>
+				<lring></lring>
+				<rring></rring>
+				<back>Dispersal Mantle</back>
+				<waist></waist>
+				<legs></legs>
+				<feet>Heartseeker earring</feet>
+				<range></range>
+			</set>	
+
+			<!-- Pet School sets -->
+			<set name="PetNuke">
+				<head>Pitre Taj +1</head>
+				<neck></neck>
+				<lear>Cirque Earring</lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring>Cirque Earring</rring>
+				<back></back>
+				<waist></waist>
+				<legs>Ptn. Churidars +2</legs>
+				<feet>Pantin Babouches</feet>
+				<range></range>
+			</set>
+			<set name="PetHeal">
+				<head>Pitre Taj +1</head>
+				<neck></neck>
+				<lear></lear>
+				<rear>Pitre Tobe +1</rear>
+				<body>Pitre Tobe</body>
+				<hands></hands>
+				<lring>Asklepian Ring</lring>
+				<rring>Kunaji Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs>Pup. Churidars</legs>
+				<feet></feet>
+				<range></range>
+			</set>
+			<set name="PetTP">
+				<head>Cirque Cappello +2</head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body>Pratik Earring</body>
+				<hands>Guignol Earring</hands>
+				<lring>Foire Bab. +1</lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet>Charivari Earring</feet>
+				<range></range>
+			</set>	
+			<set name="Waltz">
+				<head></head>
+				<neck></neck>
+				<lear>Roundel Earring</lear>
+				<rear></rear>
+				<body>Hurch'lan Sash</body>
+				<hands></hands>
+				<lring>Asklepian Ring</lring>
+				<rring>Valseur's Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs>Pup. Churidars</legs>
+				<feet></feet>
+				<range></range>
+			</set>
+	</group>
+	
+		
+	<group name="Misc" default="no">	
+			<set name="Misc">
+				<item>Reraise Earring</item>
+				<item>Reraise Earring</item>
+				<item>Instant Warp</item>
+				<item>Instant Reraise</item>
+				
+			</set>
+			
+	</group>		
+	
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Resting" set="PUPIdle"/>
+				<action type="equip" when="Engaged" set="PUPTP"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="PUPTP"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="PUPIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			<if commandprefix="/ws|/weaponskill">
+				<if spell="Shijin*|*Spiral">
+					<action type="equip" when="Precast" Set="Shijin" /> 
+				</if>
+				<else>
+					<action type="equip" when="Precast" Set="WS" />
+				</else>	
+			</if>
+			
+	<!-- Spell Rules -->	
+			<if spell="*Maneuver|* Maneuver">
+				<action type="equip" when="Precast" set="PUPmanu"/>
+			</if>
+			<if spell="*Waltz|* Waltz">
+				<action type="equip" when="Precast" set="Waltz"/>
+			</if>
+	
+	<!-- Inch > Shijin -->
+			<if Spell="One Inch Punch">
+							<action Type="ChangeSpell" Spell="Shijin Spiral"/>
+			</if>
+	
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+
+</rules>
+</spellcast>

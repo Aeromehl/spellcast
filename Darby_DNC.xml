@@ -1,0 +1,298 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<Variables>
+	
+</Variables>	
+	
+<sets>
+	<group name="DNC" default="yes">			
+			<set name="DNCIdle">
+				<main>Eminent Dagger</main>
+				<sub>Oynos Knife</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear></rear>
+				<body>Etoile Casaque</body>
+				<hands>Espial Bracers</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Etoil Cape</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Espial Socks</feet>
+			</set>
+			
+			<set name="DNCTP">
+				<main>Eminent Dagger</main>
+				<sub>Oynos Knife</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear></rear>
+				<body>Espial Gambison</body>
+				<hands>Espial Bracers</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Etoil Cape</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Espial Socks</feet>
+			</set>
+			
+			<set name="DNCWS">
+				<main>Eminent Dagger</main>
+				<sub>Oynos Knife</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear></rear>
+				<body>Espial Gambison</body>
+				<hands>Espial Bracers</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Espial Socks</feet>
+			</set>
+			
+			<set name="DNCagiWS">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>
+			
+			<set name="DNCjig">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs>Etoile Tights</legs>
+				<feet></feet>
+			</set>
+
+			<set name="DNCwaltz">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+
+			<set name="Misc">
+				<item>Kila +2</item>
+				<item>Onyos Knife</item>
+				<item>Kila</item>
+				<item>Oynos Knife</item>
+				<item>Auric Dagger</item>
+				<item>Titan's Cudgel</item>
+				<item>Warp Cudgel</item>
+				<item>Eminent Dagger</item>
+				<item>Instant Warp</item>
+				<item></item>
+				<item>Tema. Headband</item>
+				<item>Temachtiani Boots</item>
+				<item>Thaumas Coat</item>
+				<item>Temachtiani Pants</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+			</set>		
+			
+	</group>
+	
+	<group name="EVA" default="no">			
+			<set name="DNCIdle">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>
+			
+			<set name="DNCTP">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>
+			
+			<set name="DNCWS">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>
+			
+			<set name="DNCagiWS">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>
+			
+			<set name="DNCjig">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+
+					
+			
+	</group>
+	
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Resting" set="DNCIdle"/>
+				<action type="equip" when="Engaged" set="DNCTP"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="DNCTP"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="DNCIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			<if commandprefix="/ws|/weaponskill">
+				<if spell="Exenterator">
+					<action type="equip" when="Precast" Set="DNCagiWS" />
+				</if>	
+				<else>
+					<action type="equip" when="Precast" Set="DNCWS" /> 
+				</else>	
+			</if>
+	
+	<!-- Wasp Sting > Exenterator -->
+			<if Spell="Wasp Sting">
+							<action Type="ChangeSpell" Spell="Exenterator"/>
+			</if>			
+			
+	<!-- Spell Rules -->	
+			<if spell="*Jig|* Jig">
+				<action type="equip" when="Precast" set="DNCjig"/>
+			</if>
+			
+			<if spell="*Waltz|* Waltz">
+				<action type="equip" when="Precast" set="DNCwaltz"/>
+			</if>
+		
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+</rules>
+</spellcast>

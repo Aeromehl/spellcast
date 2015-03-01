@@ -1,0 +1,266 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+	
+	
+<sets>
+	<group name="BRD" default="yes">		
+			<set name="BRDIdle">
+				<main>Legato Dagger</main>
+				<sub>Oynos Knife</sub>
+				<range>Oneiros Harp</range>
+				<head>Nefer Khat +1</head>
+				<neck>Orochi Nodowa</neck>
+				<lear></lear>
+				<rear>Sheikh Manteel</rear>
+				<body>Nefer Kalasiris</body>
+				<hands>Serpentes Cuffs</hands>
+				<lring>Asklepian Ring</lring>
+				<rring>Kunaji Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist></waist>
+				<legs>Espial Hose</legs>
+				<feet>Serpentes Sabots</feet>
+			</set>
+			
+			<set name="BRDprecures">
+				<main>Light Staff</main>
+				<range></range>
+				<head></head>
+				<neck></neck>
+				<lear>Assiduity Pants +1</lear>
+				<rear></rear>
+				<body>Nefer Kalasiris</body>
+				<hands>Assid. Pants +1</hands>
+				<lring>Asklepian Ring</lring>
+				<rring>Kunaji Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+				<item>Assiduity Pants +1</item>
+				<item>Assid. Pants +1</item>
+			</set>
+			
+			<set name="BRDprecast">
+				<main>Legato Dagger</main>
+				<range></range>
+				<head>Praeco Beret</head>
+				<neck></neck>
+				<lear>Aredan Earring</lear>
+				<rear>Enchntr. Earring</rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Nereid Ring</lring>
+				<rring>Nereid Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>
+			
+			<set name="BRDrest">
+				
+			</set>
+					
+			<set name="BRDcures">
+				<main>Light Staff</main>
+				<range></range>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear></rear>
+				<body>Nefer Kalasiris</body>
+				<hands></hands>
+				<lring>Asklepian Ring</lring>
+				<rring>Kunaji Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+
+			<set name="BRDmarch">
+				<main>Legato Dagger</main>
+				<range>Faerie Piccolo</range>
+				<head>Demon Helm +1</head>
+				<neck></neck>
+				<lear>Aredan Earring</lear>
+				<rear></rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Nereid Ring</lring>
+				<rring>Nereid Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+
+			<set name="BRDminuet">
+				<main>Legato Dagger</main>
+				<range>Cornette +1</range>
+				<head>Demon Helm +1</head>
+				<neck></neck>
+				<lear>Aredan Earring</lear>
+				<rear></rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Nereid Ring</lring>
+				<rring>Nereid Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+		
+			<set name="BRDmadri">
+				<main>Legato Dagger</main>
+				<range>Traversiere +1</range>
+				<head>Demon Helm +1</head>
+				<neck></neck>
+				<lear>Aredan Earring</lear>
+				<rear></rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Nereid Ring</lring>
+				<rring>Nereid Ring</rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+			
+			<set name="BRDlullaby">
+				<main>Eminent Dagger</main>
+				<range>Mary's Horn</range>
+				<head>Praeco Beret</head>
+				<neck>Atzintli Necklace</neck>
+				<lear>Aredan Earring</lear>
+				<rear>Enchntr. Earring</rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Angha Ring</lring>
+				<rring>Mediator's Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Demonry Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Wayfarer Clogs</feet>
+			</set>	
+	
+			<set name="BRDelegy">
+				<main>Eminent Dagger</main>
+				<range>Syrinx</range>
+				<head>Praeco Beret</head>
+				<neck>Atzintli Necklace</neck>
+				<lear>Aredan Earring</lear>
+				<rear>Enchntr. Earring</rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Angha Ring</lring>
+				<rring>Mediator's Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Demonry Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Wayfarer Clogs</feet>
+			</set>
+
+			<set name="BRDrequiem">
+				<main>Eminent Dagger</main>
+				<range></range>
+				<head>Praeco Beret</head>
+				<neck>Atzintli Necklace</neck>
+				<lear>Aredan Earring</lear>
+				<rear>Enchntr. Earring</rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Angha Ring</lring>
+				<rring>Mediator's Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Demonry Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Wayfarer Clogs</feet>
+			</set>
+			<set name="BRDthrenody">
+				<main>Eminent Dagger</main>
+				<range>Sorrowful Harp</range>
+				<head>Praeco Beret</head>
+				<neck>Atzintli Necklace</neck>
+				<lear>Aredan Earring</lear>
+				<rear>Enchntr. Earring</rear>
+				<body>Praeco Doublet</body>
+				<hands>Repartie Gloves</hands>
+				<lring>Angha Ring</lring>
+				<rring>Mediator's Ring</rring>
+				<back>Hecate's Cape</back>
+				<waist>Demonry Sash</waist>
+				<legs>Teal Slops</legs>
+				<feet>Wayfarer Clogs</feet>
+			</set>		
+	</group>
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Engaged" set="BRDIdle"/>
+				<action type="equip" when="Resting" set="BRDrest"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="BRDIdle"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="BRDIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			<if commandprefix="/ws|/weaponskill">
+				<action type="equip" when="Precast" Set="BRDIdle" /> 
+			</if>
+			
+	<!-- Spell Rules -->	
+			<if Skill="Healing Magic">
+				<action type="equip" when="Precast" set="BRDprecures"/>
+				<action type="equip" when="Midcast" set="BRDcures"/>
+			</if>
+			<if spell="*March">
+				<action type="equip" when="Precast" set="BRDprecast"/>
+				<action type="equip" when="Midcast" set="BRDmarch"/>
+			</if>
+			<if spell="*Minuet">
+				<action type="equip" when="Precast" set="BRDprecast"/>
+				<action type="equip" when="Midcast" set="BRDminuet"/>
+			</if>
+			<if spell="*Madrigal">
+			    <action type="equip" when="Precast" set="BRDprecast"/>
+				<action type="equip" when="Midcast" set="BRDmadri"/>
+			</if>
+			<if spell="Lullaby*|*Lullaby">
+				<action type="equip" when="Precast" set="BRDprecast"/>
+				<action type="equip" when="Midcast" set="BRDlullaby"/>
+			</if>
+			<if spell="*Elegy">
+			    <action type="equip" when="Precast" set="BRDprecast"/>
+				<action type="equip" when="Midcast" set="BRDelegy"/>
+			</if>
+			<if spell="*Threnody">
+			    <action type="equip" when="Precast" set="BRDprecast"/>
+				<action type="equip" when="Midcast" set="BRDelegy"/>
+			</if>
+			<if spell="*Requiem">
+			    <action type="equip" when="Precast" set="BRDprecast"/>
+				<action type="equip" when="Midcast" set="BRDrequiem"/>
+			</if>
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+</rules>
+</spellcast>

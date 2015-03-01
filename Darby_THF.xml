@@ -1,0 +1,332 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+<Variables>
+	
+</Variables>	
+	
+<sets>
+	<group name="DD" default="yes">			
+			<set name="THFIdle">
+				<main>Sandung</main>
+				<sub>Eminent Dagger</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear>Pixie Earring</rear>
+				<body>Shned. Tabard +1</body>
+				<hands>Espial Bracers</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Shned. Boots +1</feet>
+				<feet>Raider's Poulaines +2</feet>
+				<item>Plun. Armlets</item>
+				<item>Plunderer's Armlets</item>
+			</set>
+			
+			<set name="THFTP">
+				<main>Sandung</main>
+				<sub>Eminent Dagger</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear>Pixie Earring</rear>
+				<body>Shned. Tabard +1</body>
+				<hands>Asn. Armlets +2</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Shned. Boots +1</feet>
+			</set>
+			
+			<set name="THFWS">
+				<main>Sandung</main>
+				<sub>Eminent Dagger</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear>Pixie Earring</rear>
+				<body>Shned. Tabard +1</body>
+				<hands>Espial Bracers</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Shned. Boots +1</feet>
+			</set>
+					
+			<set name="THFwaltz">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear>Pixie Earring</rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+
+			<set name="Misc">
+				<item></item>
+				<item>Onyos Knife</item>
+				<item></item>
+				<item></item>
+				<item>Auric Dagger</item>
+				<item></item>
+				<item>Warp Cudgel</item>
+				<item>Sandung</item>
+				<item>Instant Warp</item>
+				<item></item>
+				<item>Tema. Headband</item>
+				<item>Temachtiani Boots</item>
+				<item></item>
+				<item>Temachtiani Pants</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+			</set>		
+			
+	</group>
+	
+	<group name="TH" default="no">			
+			<set name="THFIdle">
+				<main>Sandung</main>
+				<sub>Thief's Knife</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear>Pixie Earring</rear>
+				<body>Etoile Casaque</body>
+				<hands>Espial Bracers</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Espial Socks</feet>
+			</set>
+			
+			<set name="THFTP">
+				<main>Sandung</main>
+				<sub>Thief's Knife</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear>Pixie Earring</rear>
+				<body>Espial Gambison</body>
+				<hands>Asn. Armlets +2</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Espial Socks</feet>
+			</set>
+			
+			<set name="THFWS">
+				<main>Sandung</main>
+				<sub>Thief's Knife</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear>Pixie Earring</rear>
+				<body>Espial Gambison</body>
+				<hands>Espial Bracers</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Espial Socks</feet>
+			</set>
+					
+			<set name="THFwaltz">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear>Pixie Earring</rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+
+			<set name="Misc">
+				<item></item>
+				<item>Onyos Knife</item>
+				<item></item>
+				<item></item>
+				<item>Auric Dagger</item>
+				<item></item>
+				<item>Warp Cudgel</item>
+				<item>Sandung</item>
+				<item>Instant Warp</item>
+				<item></item>
+				<item>Tema. Headband</item>
+				<item>Temachtiani Boots</item>
+				<item></item>
+				<item>Temachtiani Pants</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+			</set>		
+			
+	</group>
+	
+	<group name="SkillUp" default="no">			
+			<set name="THFIdle">
+				<main>Sandung</main>
+				<sub>Eminent Dagger</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Espial Cap</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear>Pixie Earring</rear>
+				<body>Etoile Casaque</body>
+				<hands>Espial Bracers</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Espial Hose</legs>
+				<feet>Espial Socks</feet>
+			</set>
+			
+			<set name="THFTP">
+				<main>Sandung</main>
+				<sub>Eminent Dagger</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Tema. Headband</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear>Pixie Earring</rear>
+				<body>Espial Gambison</body>
+				<hands>Asn. Armlets +2</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Temachtiani Pants</legs>
+				<feet>Temachtiani Boots</feet>
+			</set>
+			
+			<set name="THFWS">
+				<main>Sandung</main>
+				<sub>Eminent Dagger</sub>
+				<range>Jinx Discus</range>
+				<ammo></ammo>
+				<head>Tema. Headband</head>
+				<neck>Spectacles</neck>
+				<lear>Kemas Earring</lear>
+				<rear>Pixie Earring</rear>
+				<body>Espial Gambison</body>
+				<hands>Espial Bracers</hands>
+				<lring>Ecphoria Ring</lring>
+				<rring>Asklepian Ring</rring>
+				<back>Vassal's Mantle</back>
+				<waist>Panthalassa Sash</waist>
+				<legs>Temachtiani Pants</legs>
+				<feet>Temachtiani Boots</feet>
+			</set>
+					
+			<set name="THFwaltz">
+				<main></main>
+				<sub></sub>
+				<range></range>
+				<ammo></ammo>
+				<head></head>
+				<neck></neck>
+				<lear></lear>
+				<rear>Pixie Earring</rear>
+				<body></body>
+				<hands></hands>
+				<lring></lring>
+				<rring></rring>
+				<back></back>
+				<waist></waist>
+				<legs></legs>
+				<feet></feet>
+			</set>	
+
+			<set name="Misc">
+				<item></item>
+				<item>Onyos Knife</item>
+				<item></item>
+				<item></item>
+				<item>Auric Dagger</item>
+				<item></item>
+				<item>Warp Cudgel</item>
+				<item>Sandung</item>
+				<item>Instant Warp</item>
+				<item></item>
+				<item>Tema. Headband</item>
+				<item>Temachtiani Boots</item>
+				<item></item>
+				<item>Temachtiani Pants</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+			</set>		
+			
+	</group>
+	
+	
+	
+</sets>
+
+<rules>
+	
+	<!-- Wasp Sting > Exenterator -->
+			<if Spell="Wasp Sting">
+							<action Type="ChangeSpell" Spell="Exenterator"/>
+			</if>			
+			
+	
+		
+</rules>
+</spellcast>

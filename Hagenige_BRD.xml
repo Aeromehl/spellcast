@@ -1,0 +1,218 @@
+<?xml version="1.0" ?>
+<spellcast>
+    <config
+		HideErrors="false"
+		ShowGearSwaps="false"
+		Debug="false"
+		ShowSpellInfo="false"
+	/>
+
+	
+	
+<sets>
+	<group name="BRD" default="yes">		
+			<set name="BRDIdle">
+				<item>Gjallarhorn</item>
+				<item>Harfner's Sash</item>
+				<main>Terra's Staff</main>
+				<main>Pukulatmuj</main>
+				<item>Siegel Sash</item>
+				<item>Ogapepo Cape</item>
+				<item>Sheikh Manteel</item>
+				<rring>Nereid Ring</rring>
+				<item>Assiduity Pants +1</item>
+				<item>Assid. Pants +1</item>
+				<item>Schellenband</item>
+				<item>Emet Harness</item>
+				<lring>Nereid Ring</lring>
+				<item>Corvax Sash</item>
+				<waist>Gleeman's belt</waist>
+				<legs>Nares Trews</legs>
+				<feet>Choral Slippers</feet>
+				<item>Arbuda Grip</item>
+				<item>Magoraga Beads</item>
+				<item>Veneficium Ring</item>
+				<item>Terpander</item>
+				<item>Eminent Flute</item>
+				<item>Atoyac</item>
+				<item>Izhiikoh</item>
+				<item>Langeleik</item>
+				<item>Oneiros Harp</item>
+				<item>Ad. Mnchtte. +1</item>
+				<item>Ad. Mnchtte. +2</item>
+				<item>Aoidos' Calot 2</item>
+				<item>Aoidos' Hngrln. +2</item>
+				<item>Aoidos' Rhing. +2</item>
+				<item>Aoidos' Cothrn. +2</item>
+				<item>Instant Reraise</item>
+				<item>Hi-Reraiser</item>
+				<item>Super Reraiser</item>
+				<item>Praeco Doublet</item>
+				<item>Sheltered Ring</item>
+				<item>Paguroidea Ring</item>
+				<item>Mephitis Grip</item>
+				<item>Genbu's Shield</item>
+				<item>Bihu Slippers</item>
+				<item>Aoidos' Belt</item>
+				<item>Swith Cape</item>
+				<item>Aoidos' Matinee</item>
+				<item>Aoidos' Earring</item>
+				<item>Gendewitha Spats</item>
+				<item>Chelona Boots</item>
+				<item>Haruspex Hat</item>
+				<item>Witful Belt</item>
+				<item>Repartie Gloves</item>
+				<item>Lehbrailg +2</item>
+				<item>Mephitis Grip</item>
+				<item>Atzintli Necklace</item>
+				<item>Kaabnax Hat</item>
+				<item>Shned. Boots +1</item>
+				<item>Serpentes Cuffs</item>
+				<item>Serpentes Sabots</item>
+				<item>Wiglen Gorget</item>
+				<item>Kumbira Cape</item>
+				<item>Loquac. Earring</item>
+				<item>Musical Earring</item>
+				<item>Veneficium Ring</item>
+				<item>Magoraga Beads</item>
+				<item>Magoraga Beads</item>
+				<item>Swith Cape</item>
+				<item>Witful Belt</item>
+				<item>Chelona Boots</item>
+				<item>Legato Dagger</item>
+				<item>Gendewitha Spats</item>
+				<item>Aoidos' Matinee</item>
+				<item>Aoidos' Belt</item>
+				<item>Aoidos' Earring</item>
+				<item>Kumbira Cape</item>
+				<item>Gleeman's Belt</item>
+				<item>Artsieq Jubbah</item>
+				<item>Atzintli Necklace</item>
+				<item>Lifestorm Earring</item>
+				<item>Psystorm Earring</item>
+				<item>Umuthi Gloves</item>
+				<item>Sangoma Ring</item>
+				<item>Angha Ring</item>
+				<item>Teiwaz</item>
+				<item>Aoidos' Matinee</item>
+				<item>Flume Belt</item>
+				<item>Umuthi Hat</item>
+				<item>Artsieq Jubbah</item>
+				<item>Pahtli Cape</item>
+				<item>Oretania's Cape</item>
+				<item>Arka IV</item>
+				<item>Oneiros Harp</item>
+				<item>Nereid Ring</item>
+				<item>Nereid Ring</item>
+				<item>Aoidos' Calot +2</item>
+				<item>Demonry Sash</item>
+				<item>Nares Clogs</item>
+				<item>Gendewitha Gages</item>
+				<item>Wiglen Gorget</item>
+				<item>Instant Reraise</item>
+				<item>Hi-Reraiser</item>
+				<item>Super Reraiser</item>
+				<item>Reraise Earring</item>
+				<item>Reraiser</item>
+				<item>Rhapsode's Cape</item>
+				<item>Sha'ir Manteel</item>
+				<item>Bihu Slippers +1</item>
+				<item>Aoidos' Belt</item>
+				<item>Aoidos' Earring</item>
+				<item>Dweomer Knift</item>
+				<item>Echo Drops</item>
+				<item>Echo Drops</item>
+				<item>Echo Drops</item>
+				
+				
+			</set>
+			
+			<set name="BRDrest">
+				
+			</set>
+					
+			<set name="BRDcures">
+				
+			</set>	
+
+			<set name="BRDmarch">
+				
+				<rring>Nereid Ring</rring>
+				
+				<lear>Singing Earring</lear>
+				<rear>Musical Earring</rear>
+				
+				<lring>Nereid Ring</lring>
+				
+				<waist>Gleeman's belt</waist>
+				
+			</set>				
+		
+			<set name="BRDmadri">
+				
+				<rring>Nereid Ring</rring>
+				
+				<lear>Singing Earring</lear>
+				<rear>Musical Earring</rear>
+				
+				<lring>Nereid Ring</lring>
+				
+				<waist>Gleeman's belt</waist>
+				
+			</set>	
+			
+			<set name="BRDlullaby">
+				
+				<head>Diana Corona</head>
+				
+				<waist>Gleeman's belt</waist>
+				
+			</set>	
+	
+			<set name="BRDelegy">
+				
+			</set>	
+	</group>
+</sets>
+
+<rules>
+	<!-- Status Rules -->	
+				<action type="equip" when="Idle|Engaged" set="BRDIdle"/>
+				<action type="equip" when="Resting" set="BRDrest"/>
+	
+	<!-- Aftercast Rules -->
+			<if status="Engaged">
+				<action type="equip" when="Aftercast" set="BRDIdle"/>
+			</if>
+			<else>
+				<action type="equip" when="Aftercast" set="BRDIdle"/>
+			</else>	
+	
+	<!-- WS Rules -->
+			<if commandprefix="/ws|/weaponskill">
+				<action type="equip" when="Precast" Set="BRDIdle" /> 
+			</if>
+			
+	<!-- Spell Rules -->	
+			<if Skill="Healing Magic">
+				<action type="equip" when="Precast" set="BRDcures"/>
+			</if>
+			<if spell="*March">
+				<action type="equip" when="Precast" set="BRDmarch"/>
+			</if>
+			<if spell="*Madrigal">
+				<action type="equip" when="Precast" set="BRDmadri"/>
+			</if>
+			<if spell="Lullaby*|*Lullaby">
+				<action type="equip" when="Precast" set="BRDlullaby"/>
+			</if>
+			<if spell="*Elegy">
+				<action type="equip" when="Precast" set="BRDelegy"/>
+			</if>
+				 
+			<if spell="Utsusemi: Ichi" BuffActive="Copy Image">
+				<action type="midcastdelay" delay="3.0" />
+				<action type="Command" when="midcast">cancel 66</action>
+			</if>
+</rules>
+</spellcast>
