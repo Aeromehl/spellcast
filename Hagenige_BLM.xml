@@ -1,6 +1,5 @@
 <spellcast>
   <sets> 
-  <!-- sdf -->
     <group name="exported">
       <set name="exported">
         <back>Ogapepo Cape</back>
