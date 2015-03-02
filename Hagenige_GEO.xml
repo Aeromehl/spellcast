@@ -2,99 +2,84 @@
   <sets>
     <group name="exported">
       <set name="exported">
-        <main>Twebuliij</main>
-        <sub>Fulcio Grip</sub>
-        <left_ring>Ephedra Ring</left_ring>
-        <legs>Nares Trews</legs>
-        <hands>Augur's Gloves</hands>
-        <left_ring>Veneficium Ring</left_ring>
-        <hands>Bagua Mitaines</hands>
+        <legs>Bokwus Slops</legs>
+        <legs>Geomancy Pants</legs>
+        <feet>Hagondes Sabots</feet>
+        <feet>Ihwa Huaraches</feet>
+        <feet>Bagua Sandals</feet>
+        <feet>Regal Pumps</feet>
+        <main>Lehbrailg +2</main>
+        <hands>Repartie Gloves</hands>
         <item>Yggdreant Bole</item>
         <item>Hahava's Mail</item>
-        <ammo>Impatiens</ammo>
-        <back>Kumbira Cape</back>
-        <feet>Regal Pumps</feet>
-        <left_ring>Saida Ring</left_ring>
         <feet>Geomancy Sandals</feet>
-        <item>Pearlsack</item>
-        <waist>Demonry Sash</waist>
-        <left_ring>Saida Ring</left_ring>
-        <hands>Repartie Gloves</hands>
-        <feet>Serpentes Sabots</feet>
         <head>Hagondes Hat</head>
-        <body>Hyksos Robe +1</body>
-        <back>Pahtli Cape</back>
-        <back>Toro Cape</back>
-        <neck>Dark Torque</neck>
-        <left_ear>Loquac. Earring</left_ear>
-        <waist>Isa Belt</waist>
-        <back>Tempered Cape +1</back>
-        <left_ear>Hirudinea Earring</left_ear>
-        <legs>Assid. Pants +1</legs>
-        <back>Lifestream Cape</back>
-        <head>Haruspex Hat</head>
-        <main>Lehbrailg +2</main>
-        <legs>Hagondes Pants</legs>
-        <feet>Hagondes Sabots</feet>
-        <legs>Bokwus Slops</legs>
-        <head>Kaabnax Hat</head>
-        <left_ear>Lifestorm Earring</left_ear>
-        <sub>Arbuda Grip</sub>
-        <head>Umuthi Hat</head>
-        <back>Aptitude Mantle +1</back>
-        <left_ear>Psystorm Earring</left_ear>
-        <waist>Witful Belt</waist>
-        <waist>Siegel Sash</waist>
-        <left_ear>Dark Earring</left_ear>
-        <back>Twilight Cape</back>
-        <neck>Eddy Necklace</neck>
-        <ammo>Witchstone</ammo>
-        <item>Pearlsack</item>
+        <hands>Hagondes Cuffs +1</hands>
+        <neck>Quanpur Necklace</neck>
         <body>Geomancy Tunic</body>
-        <item>Emperor Fish</item>
+        <item>Pearlsack</item>
+        <legs>Nares Trews</legs>
+        <body>Hyksos Robe +1</body>
+        <hands>Bagua Mitaines</hands>
+        <main>Twebuliij</main>
+        <legs>Hagondes Pants</legs>
+        <ammo>Impatiens</ammo>
+        <neck>Eddy Necklace</neck>
+        <sub>Genbu's Shield</sub>
+        <neck>Stoicheion Medal</neck>
+        <head>Umuthi Hat</head>
+        <head>Kaabnax Hat</head>
+        <head>Haruspex Hat</head>
+        <hands>Bokwus Gloves</hands>
+        <hands>Geomancy Mitaines</hands>
+        <hands>Augur's Gloves</hands>
+        <range>Dunna</range>
+        <legs>Assid. Pants +1</legs>
+        <neck>Dark Torque</neck>
+        <neck>Enhancing Torque</neck>
+        <waist>Isa Belt</waist>
+        <waist>Oneiros Sash</waist>
         <feet>Nares Clogs</feet>
         <waist>Cascade Belt</waist>
-        <range>Dunna</range>
-        <hands>Bokwus Gloves</hands>
-        <left_ring>Irrwisch Ring</left_ring>
-        <left_ring>Acumen Ring</left_ring>
-        <left_ring>Sangoma Ring</left_ring>
-        <sub>Caecus Grip</sub>
+        <back>Aptitude Mantle +1</back>
+        <back>Tempered Cape +1</back>
+        <back>Toro Cape</back>
+        <feet>Serpentes Sabots</feet>
+        <back>Lifestream Cape</back>
         <left_ear>Friomisi Earring</left_ear>
-        <sub>Genbu's Shield</sub>
-        <sub>Tamaxchi</sub>
-        <hands>Hagondes Cuffs +1</hands>
-        <hands>Geomancy Mitaines</hands>
-        <body>Twilight Cloak</body>
-        <sub>Mephitis Grip</sub>
         <left_ear>Hecate's Earring</left_ear>
-        <head>Geomancy Galero</head>
-        <neck>Quanpur Necklace</neck>
-        <sub>Elder's Grip</sub>
-        <back>Ogapepo Cape</back>
+        <left_ear>Hirudinea Earring</left_ear>
+        <left_ear>Dark Earring</left_ear>
+        <left_ring>Acumen Ring</left_ring>
+        <item>Pearlsack</item>
+        <waist>Witful Belt</waist>
+        <item>Emperor Fish</item>
+        <waist>Siegel Sash</waist>
+        <left_ring>Ephedra Ring</left_ring>
+        <waist>Demonry Sash</waist>
+        <left_ring>Saida Ring</left_ring>
+        <left_ring>Saida Ring</left_ring>
         <left_ring>Strendu Ring</left_ring>
-        <feet>Ihwa Huaraches</feet>
-        <neck>Enhancing Torque</neck>
-        <waist>Oneiros Sash</waist>
-        <neck>Stoicheion Medal</neck>
-		<item>Geomancy Pants</item>
-		<item>Bagua Galero</item>
-		<item>Bagua Tunic</item>
-		<item>Bagua Pants</item>
-		<item>Bagua Sandals</item>
-		<item>Morrigan's Pgch. +1</item>
-		<item>Loquac. Earring</item>
-		<item>Assid. Pants +1</item>
-		<item></item>
-		<item></item>
-		<item></item>
-		<item></item>
-		<item></item>
-		<item></item>
-		<item></item>
-		<item></item>
-		<item></item>
-		<item></item>
+        <back>Kumbira Cape</back>
+        <left_ring>Irrwisch Ring</left_ring>
+        <sub>Tamaxchi</sub>
+        <back>Pahtli Cape</back>
+        <back>Ogapepo Cape</back>
+        <ammo>Witchstone</ammo>
+        <left_ear>Lifestorm Earring</left_ear>
+        <left_ear>Psystorm Earring</left_ear>
+        <sub>Elder's Grip</sub>
+        <left_ear>Loquac. Earring</left_ear>
+        <sub>Mephitis Grip</sub>
+        <sub>Arbuda Grip</sub>
+        <head>Bagua Galero</head>
+        <left_ring>Sangoma Ring</left_ring>
+        <left_ring>Veneficium Ring</left_ring>
+        <sub>Fulcio Grip</sub>
+        <head>Geomancy Galero</head>
+        <body>Bagua Tunic</body>
+        <legs>Bagua Pants</legs>
+        <sub>Caecus Grip</sub>
         <item>Gil</item>
       </set>
     </group>

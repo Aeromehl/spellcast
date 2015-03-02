@@ -26,7 +26,7 @@
         <item>Toolbag (Shino)</item>
         <left_ring>Rajas Ring</left_ring>
         <ammo>Impatiens</ammo>
-        <sub>Warp Cudgel</sub>
+        <sub>Shellbuster</sub>
         <neck>Twilight Torque</neck>
         <sub>Pole Grip</sub>
         <item>Toolbag (Shihe)</item>
@@ -65,6 +65,15 @@
         <item>Goldfish Bowl</item>
         <legs>Byakko's Haidate</legs>
         <back>Buquwik Cape</back>
+		<item>Ark Scythe</item>
+		<item>Pukulatmuj</item>
+		<item>Ark Tachi</item>
+		<item>Ramuh Ring +1</item>
+		<item>Cho'j Band</item>
+		<item>Taeon Tabard</item>
+		<item>Aptitude Mantle +1</item>
+		<item>Capacity Ring</item>
+		
         <item>Gil</item>
       </set>
     </group>

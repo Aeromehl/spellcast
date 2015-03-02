@@ -27,6 +27,7 @@
                 <waist>Commodore Belt</waist>
                 <legs>Nvrch. Culottes +2</legs>
                 <feet>Hermes' Sandals +1</feet>
+				<item>Qasama Hexagun</item>
             </set>
 		<!-- Ranged ACC+ -->
 			<set name = "Ranged|Melee">

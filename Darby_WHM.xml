@@ -10,167 +10,167 @@
 <sets>
 	<group name="WHM" default="yes">		
 			<set name="WHMIdle">
-				<main>Earth Staff</main>
-				<sub>Bugard Strap +1</sub>
-				<range></range>
-				<ammo>Incantor Stone</ammo>
-				<head>Nefer Khat +1</head>
-				<neck>Beak Necklace</neck>
-				<lear>Astral Earring</lear>
-				<rear>Insomnia Earring</rear>
-				<body>Nefer Kalasiris</body>
-				<hands>Serpentes Cuffs</hands>
-				<lring>Bifrost Ring</lring>
-				<rring>Serket Ring</rring>
-				<back>Blue Cape +1</back>
-				<waist>Witful Belt</waist>
-				<legs>Orsn. Pantaln. +1</legs>
-				<feet>Serpentes Sabots</feet>
+				<item>Earth Staff</item>
+				<item>Bugard Strap +1</item>
+				<item></item>
+				<item>Incantor Stone</item>
+				<item>Nefer Khat +1</item>
+				<item>Beak itemlace</item>
+				<item>Astral Eaitem</item>
+				<item>Insomnia Eaitem</item>
+				<item>Nefer Kalasiris</item>
+				<item>Serpentes Cuffs</item>
+				<item>Bifrost Ring</item>
+				<item>Serket Ring</item>
+				<item>Blue Cape +1</item>
+				<item>Witful Belt</item>
+				<item>Orsn. Pantaln. +1</item>
+				<item>Serpentes Sabots</item>
 			</set>
 			
 			<set name="WHMrest">
-				<main>Pluto's Staff</main>
-				<sub>Bugard Strap +1</sub>
-				<range></range>
-				<ammo>Incantor Stone</ammo>
-				<head>Nefer Khat +1</head>
-				<neck>Beak Necklace</neck>
-				<lear>Astral Earring</lear>
-				<rear>Insomnia Earring</rear>
-				<body>Nefer Kalasiris</body>
-				<hands>Serpentes Cuffs</hands>
-				<lring>Bifrost Ring</lring>
-				<rring>Serket Ring</rring>
-				<back>Blue Cape +1</back>
-				<waist>Witful Belt</waist>
-				<legs>Orsn. Pantaln. +1</legs>
-				<feet>Serpentes Sabots</feet>
+				<item>Pluto's Staff</item>
+				<item>Bugard Strap +1</item>
+				<item></item>
+				<item>Incantor Stone</item>
+				<item>Nefer Khat +1</item>
+				<item>Beak itemlace</item>
+				<item>Astral Eaitem</item>
+				<item>Insomnia Eaitem</item>
+				<item>Nefer Kalasiris</item>
+				<item>Serpentes Cuffs</item>
+				<item>Bifrost Ring</item>
+				<item>Serket Ring</item>
+				<item>Blue Cape +1</item>
+				<item>Witful Belt</item>
+				<item>Orsn. Pantaln. +1</item>
+				<item>Serpentes Sabots</item>
 			</set>
 			
 			<set name="WHMprecures">
-				<main>Light Staff</main>
-				<sub>Bugard Strap +1</sub>
-				<range></range>
-				<ammo>Impatiens</ammo>
-				<head>Nefer Khat +1</head>
-				<neck>Beak Necklace</neck>
-				<lear>Astral Earring</lear>
-				<rear>Insomnia Earring</rear>
-				<body>Nefer Kalasiris</body>
-				<hands>Serpentes Cuffs</hands>
-				<lring>Bifrost Ring</lring>
-				<rring>Serket Ring</rring>
-				<back>Blue Cape +1</back>
-				<waist>Witful Belt</waist>
-				<legs>Orsn. Pantaln. +1</legs>
-				<feet>Serpentes Sabots</feet>
+				<item>Light Staff</item>
+				<item>Bugard Strap +1</item>
+				<item></item>
+				<item>Impatiens</item>
+				<item>Nefer Khat +1</item>
+				<item>Beak itemlace</item>
+				<item>Astral Eaitem</item>
+				<item>Insomnia Eaitem</item>
+				<item>Nefer Kalasiris</item>
+				<item>Serpentes Cuffs</item>
+				<item>Bifrost Ring</item>
+				<item>Serket Ring</item>
+				<item>Blue Cape +1</item>
+				<item>Witful Belt</item>
+				<item>Orsn. Pantaln. +1</item>
+				<item>Serpentes Sabots</item>
 			</set>
 			
 			<set name="WHMmidcures">
-				<main>Light Staff</main>
-				<sub>Bugard Strap +1</sub>
-				<range></range>
-				<ammo>Impatiens</ammo>
-				<head>Orison Cap +2</head>
-				<neck>Beak Necklace</neck>
-				<lear>Astral Earring</lear>
-				<rear>Insomnia Earring</rear>
-				<body>Orison Bliaud +1</body>
-				<hands>Serpentes Cuffs</hands>
-				<lring>Bifrost Ring</lring>
-				<rring>Serket Ring</rring>
-				<back>Blue Cape +1</back>
-				<waist>Witful Belt</waist>
-				<legs>Orsn. Pantaln. +1</legs>
-				<feet>Serpentes Sabots</feet>
+				<item>Light Staff</item>
+				<item>Bugard Strap +1</item>
+				<item></item>
+				<item>Impatiens</item>
+				<item>Orison Cap +2</item>
+				<item>Beak itemlace</item>
+				<item>Astral Eaitem</item>
+				<item>Insomnia Eaitem</item>
+				<item>Orison Bliaud +1</item>
+				<item>Serpentes Cuffs</item>
+				<item>Bifrost Ring</item>
+				<item>Serket Ring</item>
+				<item>Blue Cape +1</item>
+				<item>Witful Belt</item>
+				<item>Orsn. Pantaln. +1</item>
+				<item>Serpentes Sabots</item>
 			</set>	
 			
 			<set name="WHMcursna">
-				<main>Light Staff</main>
-				<sub>Bugard Strap +1</sub>
-				<range></range>
-				<ammo>Clarus Stone</ammo>
-				<head>Orison Cap +2</head>
-				<neck>Beak Necklace</neck>
-				<lear>Astral Earring</lear>
-				<rear>Insomnia Earring</rear>
-				<body>Orison Bliaud +1</body>
-				<hands>Serpentes Cuffs</hands>
-				<lring>Bifrost Ring</lring>
-				<rring>Serket Ring</rring>
-				<back>Blue Cape +1</back>
-				<waist>Witful Belt</waist>
-				<legs>Orsn. Pantaln. +1</legs>
-				<feet>Serpentes Sabots</feet>
+				<item>Light Staff</item>
+				<item>Bugard Strap +1</item>
+				<item></item>
+				<item>Clarus Stone</item>
+				<item>Orison Cap +2</item>
+				<item>Beak itemlace</item>
+				<item>Astral Eaitem</item>
+				<item>Insomnia Eaitem</item>
+				<item>Orison Bliaud +1</item>
+				<item>Serpentes Cuffs</item>
+				<item>Bifrost Ring</item>
+				<item>Serket Ring</item>
+				<item>Blue Cape +1</item>
+				<item>Witful Belt</item>
+				<item>Orsn. Pantaln. +1</item>
+				<item>Serpentes Sabots</item>
 			</set>
 
 			<set name="WHMenhancing">
-				<main>Light Staff</main>
-				<sub>Bugard Strap +1</sub>
-				<range></range>
-				<ammo>Incantor Stone</ammo>
-				<head>Orison Cap +2</head>
-				<neck>Beak Necklace</neck>
-				<lear>Astral Earring</lear>
-				<rear>Insomnia Earring</rear>
-				<body>Nefer Kalasiris</body>
-				<hands>Blessed Mitts</hands>
-				<lring>Bifrost Ring</lring>
-				<rring>Serket Ring</rring>
-				<back>Blue Cape +1</back>
-				<waist>Witful Belt</waist>
-				<legs>Mahatma Slops</legs>
-				<feet>Errant Pigaches</feet>
+				<item>Light Staff</item>
+				<item>Bugard Strap +1</item>
+				<item>Holy Breastplate</item>
+				<item>Incantor Stone</item>
+				<item>Orison Cap +2</item>
+				<item>Beak itemlace</item>
+				<item>Astral Eaitem</item>
+				<item>Insomnia Eaitem</item>
+				<item>Nefer Kalasiris</item>
+				<item>Blessed Mitts</item>
+				<item>Bifrost Ring</item>
+				<item>Serket Ring</item>
+				<item>Blue Cape +1</item>
+				<item>Witful Belt</item>
+				<item>Mahatma Slops</item>
+				<item>Errant Pigaches</item>
 			</set>	
 	
 			<set name="WHMenfeebling">
-				<main>Eminent Staff</main>
-				<sub></sub>
-				<range></range>
-				<ammo></ammo>
-				<head></head>
-				<neck></neck>
-				<lear></lear>
-				<rear></rear>
-				<body></body>
-				<hands></hands>
-				<lring>Bifrost Ring</lring>
-				<rring>Serket Ring</rring>
-				<back></back>
-				<waist></waist>
-				<legs></legs>
-				<feet></feet>
+				<item>Eminent Staff</item>
+				<item>Haruspex Hat</item>
+				<item>Emphatikos Rope</item>
+				<item>Fylgja Torque</item>
+				<item>Ephedra Ring</item>
+				<item>Ephedra Ring</item>
+				<item>Nefer Kalasiris +1</item>
+				<item>Bokwus Gloves</item>
+				<item>Cure Clogs</item>
+				<item>Aceso's Choker</item>
+				<item>Bifrost Ring</item>
+				<item>Serket Ring</item>
+				<item>Aoidos' Hngrln. +2</item>
+				<item></item>
+				<item></item>
+				<item></item>
 			</set>
 
 			<set name="WHMelemental">
-				<main>Aquilo's Staff</main>
+				<item>Aquilo's Staff</item>
 				
 			</set>
 	
 			<set name="WHMdark">
-				<main>Pluto's Staff</main>
+				<item>Pluto's Staff</item>
 				
 			</set>
 			
 			<set name="misc">
-				<main>Frisky Sabots</main>
-				<main>Raphael's Rod</main>
-				<main></main>
-				<main></main>
-				<main>Instant Warp</main>
-				<main>Instant Retrace</main>
-				<main></main>
-				<main></main>
-				<main></main>
-				<main></main>
-				<main></main>
-				<main></main>
-				<main></main>
-				<main></main>
-				<main></main>
-				<main></main>
-				<main></main>
-				<main></main>
+				<item>Frisky Sabots</item>
+				<item>Raphael's Rod</item>
+				<item></item>
+				<item></item>
+				<item>Instant Warp</item>
+				<item>Instant Retrace</item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
+				<item></item>
 			</set>
 	</group>
 </sets>
