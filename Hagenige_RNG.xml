@@ -2,26 +2,62 @@
   <sets>
     <group name="exported">
       <set name="exported">
-        <head>Uk'uxkaj Cap</head>
-        <hands>Shned. Gloves +1</hands>
         <sub>Rose Strap</sub>
-        <legs>Abyss Flanchard</legs>
-        <head>Ejekamal Mask</head>
+        <left_ear>Dudgeon Earring</left_ear>
+        <left_ear>Heartseeker Earring</left_ear>
+        <legs>Nahtirah Trousers</legs>
+        <back>Lutian Cape</back>
         <range>Ajjub Bow</range>
-        <item>Hi-Reraiser</item>
-        <item>Super Reraiser</item>
-        <body>Iuitl Vest +1</body>
-        <waist>Impulse Belt</waist>
-        <left_ring>Longshot Ring</left_ring>
         <back>Buquwik Cape</back>
-        <range>Armageddon</range>
-        <left_ring>Fistmele Ring</left_ring>
-        <hands>Iuitl Wristbands</hands>
-        <back>Kayapa Cape</back>
-        <back>Libeccio Mantle</back>
-        <range>Falubeza</range>
+        <neck>Magoraga Beads</neck>
+        <left_ring>Saida Ring</left_ring>
+        <left_ear>Loquac. Earring</left_ear>
+        <head>Qaaxo Mask</head>
         <item>Pearlsack</item>
-        <left_ring>Beeline Ring</left_ring>
+        <range>Armageddon</range>
+        <waist>Scout's Belt</waist>
+        <back>Kayapa Cape</back>
+        <back>Tactical Mantle</back>
+        <waist>Goading Belt</waist>
+        <neck>Ocachi Gorget</neck>
+        <left_ear>Clearview Earring</left_ear>
+        <head>Arcadian Beret +1</head>
+        <left_ring>Saida Ring</left_ring>
+        <item>M. Silverpiece</item>
+        <head>Ejekamal Mask</head>
+        <body>Loki's Kaftan</body>
+        <waist>Aquiline Belt</waist>
+        <left_ring>Fistmele Ring</left_ring>
+        <legs>Iuitl Tights</legs>
+        <left_ring>Longshot Ring</left_ring>
+        <item>Em. Bul. Pouch</item>
+        <item>Brz. Bull. Pouch</item>
+        <item>Eminent Quiver</item>
+        <item>NUM10,000 Byne Bill</item>
+        <body>Taeon Tabard</body>
+        <item>Pearlsack</item>
+        <sub>Hurlbat</sub>
+        <back>Aptitude Mantle +1</back>
+        <ammo>Eminent Arrow</ammo>
+        <ammo>Eminent Arrow</ammo>
+        <left_ear>Volley Earring</left_ear>
+        <left_ring>Paqichikaji Ring</left_ring>
+        <neck>Twilight Torque</neck>
+        <left_ear>Friomisi Earring</left_ear>
+        <neck>Stoicheion Medal</neck>
+        <left_ring>Patricius Ring</left_ring>
+        <hands>Alruna's Gloves +1</hands>
+        <left_ear>Hecate's Earring</left_ear>
+        <feet>Scopuli Nails +1</feet>
+        <back>Toro Cape</back>
+        <head>Haruspex Hat</head>
+        <left_ring>Acumen Ring</left_ring>
+        <head>Uk'uxkaj Cap</head>
+        <waist>Chuq'aba Belt</waist>
+        <legs>Kaabnax Trousers</legs>
+        <left_ring>Veneficium Ring</left_ring>
+        <range>Falubeza</range>
+        <legs>Byakko's Haidate</legs>
         <item>Gil</item>
       </set>
     </group>
