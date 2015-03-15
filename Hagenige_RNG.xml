@@ -53,12 +53,17 @@
         <head>Haruspex Hat</head>
         <left_ring>Acumen Ring</left_ring>
         <head>Uk'uxkaj Cap</head>
+		<item>K'ayres Ring</item>
+		<item>Eminent Bullet</item>
+		<item>Adlivin Bullet</item>
+		<item>Taeon Tights</item>
         <waist>Chuq'aba Belt</waist>
         <legs>Kaabnax Trousers</legs>
         <left_ring>Veneficium Ring</left_ring>
         <range>Falubeza</range>
         <legs>Byakko's Haidate</legs>
 		<item>Annihilator</item>
+		
         <item>Gil</item>
       </set>
     </group>
