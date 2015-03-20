@@ -1,503 +1,76 @@
-<?xml version="1.0" ?>
 <spellcast>
-	<config
-		HideErrors="false"
-		ShowGearSwaps="false"
-		Debug="false"
-		ShowSpellInfo="false"
-	/>
-	
-	
-	<!-- SETS SECTION -->
-	<sets>
-
-<!-- Pure Tank Set-->		
-		<group name="Tank" default="yes">
-	
-		
-			<set name="Main"><!-- Charm+/ACC+ -->
-				<main>Faizzeer +2</main>
-				<sub>Hunahpu</sub>
-				<neck>Shepherd's Chain</neck>
-				<lear>Steelflash Earring</lear>
-				<rear>Bladeborn Earring</rear>
-				<lring>Epona's Ring</lring>
-				<item>Monster Gaiters +2</item>
-				<item>Mst. Gaiters +2</item>
-				<back>Oneiros Cappa</back>
-				<waist>Moepapa Stone</waist>
-				<head>Anwig Salade</head>
-				<body>Mirke Wardecors</body>
-				<hands>Mst. Gloves +2</hands>
-				<legs>Ferine Quijotes +2</legs>
-				<feet>Adaman Sollerets</feet>
-				<ammo>Demonry Core</ammo>
-				<item>Isa Belt</item>
-				<item>Ankusa Gloves</item>
-				<item>Arktoi</item>
-			</set>
-			
-			<set name="Idle">
-				<main>Faizzeer +2</main>
-				<sub>Astolfo</sub>
-				<neck>Shepherd's Chain</neck>
-				<lear>Steelflash Earring</lear>
-				<rear>Bladeborn Earring</rear>
-				<lring>Epona's Ring</lring>
-				<rring>Oneiros Ring</rring>
-				<back>Oneiros Cappa</back>
-				<waist>Moepapa Stone</waist>
-				<head>Anwig Salade</head>
-				<body>Mirke Wardecors</body>
-				
-				<legs>Ferine Quijotes +2</legs>
-				<feet>Adaman Sollerets</feet>
-				<ammo>Demonry Core</ammo>
-			</set>
-
-			
-			<set name="Jug">
-				<hands>Mst. Gloves +2</hands>
-				<main>Faizzeer +2</main>
-			</set>
-						
-			
-			<set name="WS"><!-- STR+ -->
-				<main></main>
-				<sub></sub>
-				
-				<lear>Flame Pearl</lear>
-				<rear>Flame Pearl</rear>
-				<lring>Pyrosoul Ring</lring>
-				<rring>Pyrosoul Ring</rring>
-				
-				
-				<head>Twilight Helm</head>
-				<body>Phorcys Korazin</body>
-				
-				
-				<feet>Adaman Sollerets</feet>
-				<ammo>Demonry Core</ammo>
-			</set>
-			
-						
-						
-			<set name="Reward"><!-- Reward/MND+ -->
-				<main>Zoraal Ja's Axe</main>
-				<sub>Zoraal Ja's Axe</sub>
-				<head>Twilight Helm</head>
-			
-				<lear></lear>
-				<rear></rear>
-				<body>Twilight Mail</body>
-				<hands>Ogre Gloves</hands>
-				
-				<rring>Instant Reraise</rring>
-				<back>Super Reraiser</back>
-				<waist>Hi-Reraiser</waist>
-				<legs>Ankusa Trousers</legs>
-				<feet>Monster Gaiters +2</feet>
-			</set>
-
-			<set name="Waltz">
-				<main>Flame Pearl</main>
-				<sub>Flame Pearl</sub>
-				<range>Thunder Pearl</range>
-				<ammo>Thunder Pearl</ammo>
-				<head>Ramuh Ring +1</head>
-				<neck>Rajas Ring</neck>
-				<lear>Otomi Helm</lear>
-				<rear>Pipilaka Belt</rear>
-				<body>Buquwik Cape</body>
-				<hands>Umuthi Gloves</hands>
-				
-				
-				<back>Kayapa Cape</back>
-				<waist>Iuitl Vest +1</waist>
-				<legs>Whirlpool Greaves</legs>
-				<feet>Outrider Hose</feet>
-				<item>Mulsum</item>
-				<item>Ighwa Trousers</item>
-				<item>Lifestorm Earring</item>
-				<item>Espial Gambison</item>
-			</set>
-			
-		</group>				
-	
-<!-- DD Set-->		
-		<group name="DD" default="no">
-	
-		
-			<set name="Main"><!-- Charm+/ACC+ -->
-				<main>Faizzeer +2</main>
-				<sub>Faizzeer +1</sub>
-				<neck>Asperity Necklace</neck>
-				<lear>Steelflash Earring</lear>
-				<rear>Bladeborn Earring</rear>
-				<lring>Epona's Ring</lring>
-				<rring>Pyrosoul Ring</rring>
-				<back>Atheling Mantle</back>
-				<waist>Windbuffet Belt</waist>
-				<head>Otomi Helm</head>
-				<body>Iuitl Vest +1</body>
-				<hands></hands>
-				<legs>Ferine Quijotes +2</legs>
-				<feet>Adaman Sollerets</feet>
-				<ammo>Demonry Core</ammo>
-				<item>Xaddi Cuisses</item>
-				
-				<item>Isa Belt</item>
-				<item>Miki. Breastplate</item>
-				<item>Quiahuiz Helm</item>
-				<item>Otomi Helm</item>
-				<item>Whirlpool Greaves</item>
-				<item>Umuthi Gloves</item>
-				<item>Flume Belt</item>
-				<item>Dark Ring</item>
-				<item></item>
-				<item></item>
-				<item></item>
-				<item></item>
-				<item></item>
-				<item></item>
-				<item></item>
-			</set>
-			
-			<set name="Idle">
-				<main>Faizzeer +2</main>
-				<sub>Faizzeer +1</sub>
-				<neck>Shepherd's Chain</neck>
-				<lear>Steelflash Earring</lear>
-				<rear>Bladeborn Earring</rear>
-				<lring>Epona's Ring</lring>
-				<rring>Pyrosoul Ring</rring>
-				<back>Oneiros Cappa</back>
-				<waist>Moepapa Stone</waist>
-				<head>Twilight Helm</head>
-				<body>Twilight Mail</body>
-				
-				<legs>Ferine Quijotes +2</legs>
-			
-				<ammo>Demonry Core</ammo>
-			</set>
-
-			
-			<set name="Jug">
-				<hands>Mst. Gloves +2</hands>
-				<main>Faizzeer +2</main>
-			</set>
-						
-			
-			<set name="WS"><!-- STR+ -->
-				<main></main>
-				<sub></sub>
-				
-				<rear>Bladeborn Earring</rear>
-				<lring>Pyrosoul Ring</lring>
-				<rring>Pyrosoul Ring</rring>
-				
-				<body>Phorcys Korazin</body>
-				
-				<feet>Adaman Sollerets</feet>
-				<ammo>Demonry Core</ammo>
-			</set>
-			
-						
-						
-			<set name="Reward"><!-- Reward/MND+ -->
-				<main>Zoraal Ja's Axe</main>
-				<sub>Zoraal Ja's Axe</sub>
-				<head>Twilight Helm</head>
-				
-				<lear></lear>
-				<rear></rear>
-				<body>Twilight Mail</body>
-				<hands>Ogre Gloves</hands>
-				
-				<rring>Ramuh Ring +1</rring>
-				<back></back>
-				<waist></waist>
-				<legs></legs>
-				<feet>Monster Gaiters +2</feet>
-			</set>
-			
-			<set name="Waltz">
-				<main></main>
-				<sub></sub>
-				<range></range>
-				<ammo></ammo>
-				<head></head>
-				<neck></neck>
-				<lear></lear>
-				<rear></rear>
-				<body></body>
-				<hands></hands>
-				
-				<back></back>
-				<waist></waist>
-				<legs></legs>
-				<feet></feet>
-			</set>
-
-			
-		</group>	
-
-<!-- Twilight Set-->		
-		<group name="Twilight" default="yes">
-	
-		
-			<set name="Main"><!-- Charm+/ACC+ -->
-				<main>Faizzeer +2</main>
-				<sub>Astolfo</sub>
-				<neck>Wiglen Gorget</neck>
-				<lear>Steelflash Earring</lear>
-				<rear>Bladeborn Earring</rear>
-				<lring>Epona's Ring</lring>
-				<rring>Pyrosoul Ring</rring>
-				<back>Oneiros Cappa</back>
-				<waist>Moepapa Stone</waist>
-				<head>Twilight Helm</head>
-				<body>Twilight Mail</body>
-				
-				<legs>Ferine Quijotes +2</legs>
-				<feet>Adaman Sollerets</feet>
-				<ammo>Demonry Core</ammo>
-			</set>
-
-			<set name="Idle">
-				<main>Faizzeer +2</main>
-				<sub>Astolfo</sub>
-				<neck>Wiglen Gorget</neck>
-				<lear>Steelflash Earring</lear>
-				<rear>Bladeborn Earring</rear>
-				<lring>Paguroidea Ring</lring>
-				<rring>Sheltered Ring</rring>
-				<back>Oneiros Cappa</back>
-				<waist>Moepapa Stone</waist>
-				<head>Twilight Helm</head>
-				<body>Twilight Mail</body>
-			
-				<legs>Ferine Quijotes +2</legs>
-				<feet>Adaman Sollerets</feet>
-				<ammo>Demonry Core</ammo>
-			</set>
-			
-			
-			<set name="Jug">
-				<hands>Mst. Gloves +2</hands>
-				<main>Faizzeer +2</main>
-			</set>
-						
-			
-			<set name="WS"><!-- STR+ -->
-				<main></main>
-				<sub></sub>
-			
-				<rear>Bladeborn Earring</rear>
-				<lring>Pyrosoul Ring</lring>
-				<rring>Pyrosoul Ring</rring>
-			
-				
-				<head>Twilight Helm</head>
-				<body>Twilight Mail</body>
-			
-				<feet>Adaman Sollerets</feet>
-				<ammo>Demonry Core</ammo>
-			</set>
-			
-						
-						
-			<set name="Reward"><!-- Reward/MND+ -->
-				<main>Zoraal Ja's Axe</main>
-				<sub>Zoraal Ja's Axe</sub>
-				<head>Twilight Helm</head>
-			
-				<lear></lear>
-				<rear></rear>
-				<body>Twilight Mail</body>
-				<hands>Ogre Gloves</hands>
-				
-				<rring></rring>
-				<back></back>
-				<waist></waist>
-				<legs></legs>
-				
-			</set>
-			
-			<set name="Waltz">
-				<main>Fizzy Broth</main>
-				<sub>Lucky Broth</sub>
-				<range>Salubrious Broth</range>
-				<ammo>Wispy Broth</ammo>
-				<head>Vis. Broth</head>
-				<neck>Saline Broth</neck>
-				<lear></lear>
-				<rear></rear>
-				<body></body>
-				
-				<waist></waist>
-				<legs></legs>
-				<feet></feet>
-			</set>
-
-			
-		</group>				
-	
-		
-		
-<!-- MISC GEAR-->		
-		<group name="MISC" default="no">
-	
-		
-			<set name="MISC"><!-- Other things to take w/me -->
-				<item>Linkpearl</item>
-				<item>Cl. Wheat Broth</item>
-				<item>Cl. Wheat Broth</item>
-				<item>Cl. Wheat Broth</item>
-				<item>Lucky Broth</item>
-				<item>Lucky Broth</item>
-				<item>Salubrious Broth</item>
-				<item>Salubrious Broth</item>
-				<item>Fizzy Broth</item>
-				<item>Fizzy Broth</item>
-				<item>Wispy Broth</item>
-				<item>Instant Reraise</item>
-				<item>Reraise Earring</item>
-				<item>Pet Food Theta</item>
-				
-				<item>Lucky Broth</item>
-				<item>Instant Warp</item>
-				<item>Instant Reraise</item>
-				<item>Reraise Earring</item>
-				<item></item>
-				
-				<item>Pet Poultice</item>
-				<item>Pet Food Zeta</item>
-				<item>Pet Food Zeta</item>
-				<item>Pet Food Zeta</item>
-				<item>Pet Food Zeta</item>
-				<item>Pet Food Zeta</item>
-				<item>Pet Food Zeta</item>
-				<item>Pet Food Zeta</item>
-				<item>Pet Food Zeta</item>
-				<item>Pet Food Zeta</item>
-				<item>Pet Food Theta</item>
-				<item>Pet Food Theta</item>
-				<item>Sanjaku-Tenugui</item>
-				<item>Sanjaku-Tenugui</item>
-				<item>Shinobi-Tabi</item>
-				<item>Shinobi-Tabi</item>
-				<item>Shihei</item>
-				<item>Toolbag (Shihe)</item>
-				<item>Silent Oil</item>
-				<item>Prism Powder</item>
-				
-				
-				<hands>Mst. Gloves +2</hands>
-				
-				<main>Zoraal Ja's Axe</main>
-				<item>Visc. Broth</item>
-				<item>Pearlsack</item>
-				<item>Phorcys Korazin</item>
-			</set>
-		
-				
-		</group>	
-	
-
-	</sets>
-	
-
-
-	<!-- RULES SECTION -->
-
-	<rules>
-		<if spell="*Waltz|* Waltz">
-				<action type="equip" when="Precast" set="Waltz"/>
-			</if>
-		
-		<if Spell="Primal Rend|Ruinator|Onslaught|Bora Axe|Mistral Axe|Raging Axe|Smash Axe|Gale Axe|Avalanche Axe|Spinning Axe|Rampage|Calamity|Slice|Dark Harvest|Nightmare Scythe|Spinning Scythe|Vorpal Scythe">
-					<action type="equip" when="precast" set="WS"/>
-					
-		</if>		
-
-		
-			
-		
-		<if spell="Call Beast">
-					<action type="equip" when="precast" set="Jug"/>
-					
-		</if>
-		
-		
-		
-		<if spell="Reward">
-					<action type="equip" when="precast" set="Reward"/>
-					
-		</if>
-		
-		
-		
-		<if spell="Fight">
-					<action type="equip" when="precast" set="Main"/>
-					<action type="equip" when="midcast" set="Main"/>
-					
-		</if>
-		
-					
-		<!-- Status Rules -->
-			<action type="equip" when="Engaged" set="Main" />
-			<action type="equip" when="Idle|Resting" set="Idle" />
-				
-	
-		<!-- Aftercast Rules -->
-			<if status="Engaged">
-				<action type="equip" when="Aftercast" set="Main"/>
-			</if>
-			<else>
-				<action type="equip" when="Aftercast" set="Idle"/>
-			</else>	
-			
-		
-		
-		
-		<if subjob="SCH|RDM">
-			<if spell="Dia">
-				<if Advanced='"%dayelement"="Earth"'>
-							<action Type="ChangeSpell" Spell="Stone"/>
-				</if>
-				<if Advanced='"%dayelement"="Fire"'>
-							<action Type="ChangeSpell" Spell="Fire"/>
-				</if>
-				<if Advanced='"%dayelement"="Wind"'>
-							<action Type="ChangeSpell" Spell="Aero"/>
-				</if>
-				<if Advanced='"%dayelement"="Water"'>
-							<action Type="ChangeSpell" Spell="Water"/>
-				</if>
-				<if Advanced='"%dayelement"="Light"'>
-							<action Type="ChangeSpell" Spell="Dia"/>
-				</if>
-				<if Advanced='"%dayelement"="Dark*"'>
-							<action Type="ChangeSpell" Spell="Bio"/>
-				</if>
-				<if Advanced='"%dayelement"="Ice"'>
-							<action Type="ChangeSpell" Spell="Blizzard"/>
-				</if>
-				<if Advanced='"%dayelement"="Lightning"'>
-							<action Type="ChangeSpell" Spell="Thunder"/>
-				</if>	
-			</if>
-			
-			
-		</if>
-		
-		<if spell="Jettatura|Fantod"> 
-        <cancelspell/> 
-        <cmd>input /raw /pet "%spell" &lt;me&gt;;</cmd> 
-</if>
-
-		
-	
-	</rules>
+  <sets>
+    <group name="exported">
+      <set name="exported">
+        <body>Iuitl Vest +1</body>
+        <sub>Guichard's Axe +2</sub>
+        <neck>Wiglen Gorget</neck>
+        <legs>Taeon Tights</legs>
+        <head>Xaddi Headgear</head>
+        <head>Otomi Helm</head>
+        <body>Emet Harness</body>
+        <waist>Flume Belt</waist>
+        <body>Mirke Wardecors</body>
+        <left_ring>Dark Ring</left_ring>
+        <hands>Ogre Gloves</hands>
+        <body>Miki. Breastplate</body>
+        <waist>Moepapa Stone</waist>
+        <sub>Zoraal Ja's Axe</sub>
+        <waist>Isa Belt</waist>
+        <item>Pearlsack</item>
+        <head>Quiahuiz Helm</head>
+        <ammo>Demonry Core</ammo>
+        <neck>Shepherd's Chain</neck>
+        <feet>Whirlpool Greaves</feet>
+        <sub>Zoraal Ja's Axe</sub>
+        <sub>Faizzeer +2</sub>
+        <head>Anwig Salade</head>
+        <head>Acro Helm</head>
+        <sub>Hunahpu</sub>
+        <hands>Umuthi Gloves</hands>
+        <sub>Astolfo</sub>
+        <back>Buquwik Cape</back>
+        <hands>Taeon Gloves</hands>
+        <back>Pastoralist's Mantle</back>
+        <back>Kayapa Cape</back>
+        <sub>Arktoi</sub>
+        <feet>Mst. Gaiters +2</feet>
+        <legs>Xaddi Cuisses</legs>
+        <head>Iuitl Headgear</head>
+        <hands>Ankusa Gloves</hands>
+        <legs>Ankusa Trousers</legs>
+        <body>Taeon Tabard</body>
+        <body>Mes. Haubergeon</body>
+        <legs>Ferine Quijotes +2</legs>
+        <neck>Ferine Necklace</neck>
+        <hands>Outrider Mittens</hands>
+        <neck>Tlamiztli Collar</neck>
+        <waist>Phasmida Belt</waist>
+        <sub>Kumbhakarna</sub>
+        <head>Yaoyotl Helm</head>
+        <hands>Acro Gauntlets</hands>
+        <legs>Iuitl Tights</legs>
+        <waist>Hurch'lan Sash</waist>
+        <item>Pearlsack</item>
+        <feet>Xaddi Boots</feet>
+        <left_ear>Dudgeon Earring</left_ear>
+        <left_ear>Heartseeker Earring</left_ear>
+        <left_ear>Suppanomimi</left_ear>
+        <ammo>Dire Broth</ammo>
+        <ammo>Muddy Broth</ammo>
+        <ammo>Meaty Broth</ammo>
+        <ammo>Pale Sap</ammo>
+        <ammo>Blackwater Broth</ammo>
+        <ammo>Crumbly Soil</ammo>
+        <ammo>Trans. Broth</ammo>
+        <ammo>Poisonous Broth</ammo>
+        <ammo>Pet Food Theta</ammo>
+        <ammo>Pet Food Theta</ammo>
+        <ammo>Pet Food Theta</ammo>
+        <head>Twilight Helm</head>
+        <body>Twilight Mail</body>
+        <item>Gil</item>
+      </set>
+    </group>
+  </sets>
 </spellcast>
